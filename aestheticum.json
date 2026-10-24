@@ -56577,8 +56577,3007 @@
       }
     }
   ],
-  "techniques": [],
-  "effects": [],
+  "techniques": [
+    {
+      "id": "batik",
+      "name": "Batik",
+      "description": "Wax-resist dyeing in which hot wax is drawn, stamped or brushed onto cloth before dyeing, repeated over several cycles to build multicolored patterns.",
+      "tags": [
+        "southeast-asian",
+        "handcrafted",
+        "ornate",
+        "traditional"
+      ],
+      "sources": [
+        {
+          "title": "Batik (Getty AAT 300053050)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300053050",
+          "tier": 1
+        },
+        {
+          "title": "Javanese Batik Textiles - Saint Louis Art Museum Group 7 Facebook Youtube",
+          "publisher": "Saint Louis Art Museum",
+          "url": "https://www.slam.org/exhibitions/javanese-batik-textiles/",
+          "tier": 1
+        },
+        {
+          "title": "Batik - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Batik",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "aat": "300053050",
+        "wikidata": "Q63442113"
+      },
+      "markers": "Intricate patterned cotton or silk: fine drawn lines and dense motifs in layered dye colors, with pale resisted lines and areas where the wax blocked the dye.",
+      "domains": {
+        "decorative-arts": {
+          "media": [
+            "textiles"
+          ],
+          "markers": "Finely woven cotton or silk lengths covered in intricate hand-drawn or stamped wax-resist patterns.",
+          "sources": [
+            {
+              "title": "Javanese Batik Textiles - Saint Louis Art Museum Group 7 Facebook Youtube",
+              "publisher": "Saint Louis Art Museum",
+              "url": "https://www.slam.org/exhibitions/javanese-batik-textiles/",
+              "tier": 1
+            },
+            {
+              "title": "Batik - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Batik",
+              "tier": 3
+            }
+          ]
+        }
+      },
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "javanese",
+            "sources": [
+              {
+                "title": "Javanese Batik Textiles - Saint Louis Art Museum Group 7 Facebook Youtube",
+                "publisher": "Saint Louis Art Museum",
+                "url": "https://www.slam.org/exhibitions/javanese-batik-textiles/",
+                "tier": 1
+              },
+              {
+                "title": "Batik - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Batik",
+                "tier": 3
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "board-formed-concrete",
+      "name": "Board-formed concrete",
+      "description": "Concrete cast against timber boards or plywood set in the form, so the cured surface carries the wood's grain, knots and board joints.",
+      "tags": [
+        "concrete",
+        "industrial",
+        "modern",
+        "contemporary"
+      ],
+      "sources": [
+        {
+          "title": "Board Formed Concrete Panels The Hamptons NY, Boston MA & Washington DC",
+          "publisher": "Concrete Works East",
+          "url": "https://www.concreteworkseast.com/board-formed/",
+          "tier": 2
+        }
+      ],
+      "markers": "Grey concrete imprinted with raw wood grain, knots and parallel plank bands 4 to 12 inches wide, laid flush or offset, with visible seams between boards.",
+      "domains": {
+        "architecture": {
+          "media": [
+            "buildings",
+            "landscape"
+          ],
+          "markers": "Facades, columns, retaining walls and fencing in board-marked concrete, plank grain running in bands across the surface.",
+          "sources": [
+            {
+              "title": "Board Formed Concrete Panels The Hamptons NY, Boston MA & Washington DC",
+              "publisher": "Concrete Works East",
+              "url": "https://www.concreteworkseast.com/board-formed/",
+              "tier": 2
+            }
+          ]
+        },
+        "interior": {
+          "markers": "Feature walls in living rooms, restaurants and hotel lobbies with raw plank-grain concrete texture and visible board seams.",
+          "sources": [
+            {
+              "title": "Board Formed Concrete Panels The Hamptons NY, Boston MA & Washington DC",
+              "publisher": "Concrete Works East",
+              "url": "https://www.concreteworkseast.com/board-formed/",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "contemporary",
+            "sources": [
+              {
+                "title": "Board Formed Concrete Panels The Hamptons NY, Boston MA & Washington DC",
+                "publisher": "Concrete Works East",
+                "url": "https://www.concreteworkseast.com/board-formed/",
+                "tier": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "bush-hammering",
+      "name": "Bush hammering",
+      "description": "Repeatedly striking stone or concrete with a hand hammer or powered head carrying a grid of conical or pyramidal points, leaving an evenly pitted, rough surface.",
+      "tags": [
+        "concrete",
+        "natural-materials"
+      ],
+      "sources": [
+        {
+          "title": "303R-04: Guide to Cast-in-Place Architectural Concrete Practice",
+          "publisher": "American Concrete Institute",
+          "url": "https://www.concrete.org/publications/internationalconcreteabstractsportal/m/details/id/13492",
+          "tier": 1
+        },
+        {
+          "title": "What Is A Bush Hammered Finish | Eco Outdoor Instagram Facebook Pinterest LinkedIn YouTube",
+          "publisher": "Eco Outdoor",
+          "url": "https://www.eco-outdoor.com/en-au/outdoor-design/what-is-a-bush-hammered-finish",
+          "tier": 2
+        },
+        {
+          "title": "Bush hammer - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bush_hammer",
+          "tier": 3
+        }
+      ],
+      "markers": "Uniformly pitted, pockmarked matte stone or concrete resembling naturally weathered rock, with the material's tonal variation heightened across the face.",
+      "domains": {
+        "architecture": {
+          "media": [
+            "buildings",
+            "landscape"
+          ],
+          "markers": "Stone paving and flooring, indoors and out, with a rough, pitted, weathered texture, common in wet areas.",
+          "sources": [
+            {
+              "title": "What Is A Bush Hammered Finish | Eco Outdoor Instagram Facebook Pinterest LinkedIn YouTube",
+              "publisher": "Eco Outdoor",
+              "url": "https://www.eco-outdoor.com/en-au/outdoor-design/what-is-a-bush-hammered-finish",
+              "tier": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cerusing",
+      "name": "Cerusing",
+      "description": "Wood finish in which white liming wax or paste is worked into the open pores of oak or another open-grained hardwood and wiped back, so the grain stands out in white (cerused or limed oak).",
+      "tags": [
+        "rustic",
+        "light",
+        "natural-materials"
+      ],
+      "sources": [
+        {
+          "title": "Cerused Wood: All About The Furniture Finish - Bob Vila",
+          "publisher": "Bob Vila",
+          "url": "https://www.bobvila.com/articles/cerused-wood/",
+          "tier": 2
+        },
+        {
+          "title": "What Is Cerused Oak? - Chairish Blog",
+          "publisher": "Chairish",
+          "url": "https://www.chairish.com/blog/what-is-cerused-oak/",
+          "tier": 2
+        },
+        {
+          "title": "Choosing Oak for a Cerused (Limed) Finish",
+          "publisher": "WOODWEB",
+          "url": "https://woodweb.com/knowledge_base/Choosing_Oak_for_a_Cerused_Limed_Finish.html",
+          "tier": 2
+        }
+      ],
+      "markers": "Oak with bright white pigment lodged in the open pores, grain showing as white streaks and flecks against muted, often darker wood; weathered look, soft wax sheen.",
+      "domains": {
+        "furniture": {
+          "media": [
+            "storage",
+            "tables",
+            "beds"
+          ],
+          "markers": "Case pieces, tables and headboards in cerused oak, white-filled grain running across drawer fronts and tops.",
+          "sources": [
+            {
+              "title": "What Is Cerused Oak? - Chairish Blog",
+              "publisher": "Chairish",
+              "url": "https://www.chairish.com/blog/what-is-cerused-oak/",
+              "tier": 2
+            },
+            {
+              "title": "Cerused Wood: All About The Furniture Finish - Bob Vila",
+              "publisher": "Bob Vila",
+              "url": "https://www.bobvila.com/articles/cerused-wood/",
+              "tier": 2
+            }
+          ]
+        },
+        "interior": {
+          "markers": "Cabinetry, wall panels, beams and floors in limed oak, white-flecked grain giving a pale, textured surface.",
+          "sources": [
+            {
+              "title": "What Is Cerused Oak? - Chairish Blog",
+              "publisher": "Chairish",
+              "url": "https://www.chairish.com/blog/what-is-cerused-oak/",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "coastal",
+            "sources": [
+              {
+                "title": "Cerused Wood: All About The Furniture Finish - Bob Vila",
+                "publisher": "Bob Vila",
+                "url": "https://www.bobvila.com/articles/cerused-wood/",
+                "tier": 2
+              }
+            ]
+          },
+          {
+            "id": "farmhouse",
+            "sources": [
+              {
+                "title": "Cerused Wood: All About The Furniture Finish - Bob Vila",
+                "publisher": "Bob Vila",
+                "url": "https://www.bobvila.com/articles/cerused-wood/",
+                "tier": 2
+              }
+            ]
+          },
+          {
+            "id": "french-country",
+            "sources": [
+              {
+                "title": "Cerused Wood: All About The Furniture Finish - Bob Vila",
+                "publisher": "Bob Vila",
+                "url": "https://www.bobvila.com/articles/cerused-wood/",
+                "tier": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "decoupage",
+      "name": "Decoupage",
+      "description": "Decorating an object by gluing colored paper cutouts onto it, often with paint effects or gold leaf, then sealing it under many coats of varnish until it reads as painting or inlay.",
+      "tags": [
+        "handcrafted",
+        "painted-finish",
+        "traditional"
+      ],
+      "sources": [
+        {
+          "title": "Decoupage (Getty AAT 300262913)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300262913",
+          "tier": 1
+        },
+        {
+          "title": "Homage to Decoupage - Historic Deerfield",
+          "publisher": "Historic Deerfield",
+          "url": "https://www.historic-deerfield.org/2020-6-19-homage-to-decoupage/",
+          "tier": 1
+        },
+        {
+          "title": "Decoupage - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Decoupage",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "aat": "300262913",
+        "wikidata": "Q840430"
+      },
+      "markers": "Printed paper cutout figures and motifs on a painted ground, sealed under deep layers of varnish to a smooth, polished surface that looks painted or inlaid.",
+      "domains": {
+        "furniture": {
+          "media": [
+            "storage"
+          ],
+          "markers": "Boxes and furniture with a painted ground covered in varnished paper cutouts, the layered varnish giving a smooth, antiqued sheen.",
+          "sources": [
+            {
+              "title": "Homage to Decoupage - Historic Deerfield",
+              "publisher": "Historic Deerfield",
+              "url": "https://www.historic-deerfield.org/2020-6-19-homage-to-decoupage/",
+              "tier": 1
+            },
+            {
+              "title": "Decoupage - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Decoupage",
+              "tier": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "encaustic-painting",
+      "name": "Encaustic painting",
+      "description": "Painting with molten wax, usually beeswax and damar resin mixed with pigment, applied to a rigid surface such as a wood panel and fused with heat.",
+      "tags": [
+        "handcrafted",
+        "organic"
+      ],
+      "sources": [
+        {
+          "title": "Encaustic painting (Getty AAT 300053353)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300053353",
+          "tier": 1
+        },
+        {
+          "title": "What is Encaustic painting? - All Things Encaustic Bluesky Facebook Instagram LinkedIn YouTube",
+          "publisher": "All Things Encaustic",
+          "url": "https://allthingsencaustic.com/faq/what-is-encaustic-painting/",
+          "tier": 2
+        },
+        {
+          "title": "Encaustic painting - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Encaustic_painting",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "aat": "300053353",
+        "wikidata": "Q308968"
+      },
+      "markers": "Luminous, translucent layers of colored wax with rich depth and a dimensional, textured surface, sometimes carved, sculpted or with embedded collage materials."
+    },
+    {
+      "id": "french-polish",
+      "name": "French polish",
+      "description": "Wood finishing technique of building up many thin coats of shellac dissolved in alcohol, rubbed on with an oil-lubricated pad, to a flat, grain-filled, high-gloss surface.",
+      "tags": [
+        "formal",
+        "traditional",
+        "natural-materials"
+      ],
+      "sources": [
+        {
+          "title": "Shellac",
+          "publisher": "The Building Conservation Directory",
+          "url": "https://buildingconservation.com/articles/shellac/shellac.htm",
+          "tier": 2
+        },
+        {
+          "title": "French polish - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/French_polish",
+          "tier": 3
+        }
+      ],
+      "markers": "Very high gloss, glass-flat and grain-filled; deep, warm amber-to-brown color with chatoyant figure that seems to glow beneath the surface.",
+      "domains": {
+        "furniture": {
+          "media": [
+            "tables",
+            "storage"
+          ],
+          "markers": "Mahogany, rosewood, walnut or satinwood veneered tables and cabinets with a bright, reflective finish that brings out figure and marquetry.",
+          "sources": [
+            {
+              "title": "Shellac",
+              "publisher": "The Building Conservation Directory",
+              "url": "https://buildingconservation.com/articles/shellac/shellac.htm",
+              "tier": 2
+            },
+            {
+              "title": "French polish - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/French_polish",
+              "tier": 3
+            }
+          ]
+        },
+        "interior": {
+          "markers": "Staircases, paneling and display cabinets in polished hardwood with a bright, flat, reflective finish.",
+          "sources": [
+            {
+              "title": "Shellac",
+              "publisher": "The Building Conservation Directory",
+              "url": "https://buildingconservation.com/articles/shellac/shellac.htm",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "victorian",
+            "sources": [
+              {
+                "title": "French polish - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/French_polish",
+                "tier": 3
+              },
+              {
+                "title": "Shellac",
+                "publisher": "The Building Conservation Directory",
+                "url": "https://buildingconservation.com/articles/shellac/shellac.htm",
+                "tier": 2
+              }
+            ]
+          },
+          {
+            "id": "regency",
+            "sources": [
+              {
+                "title": "Shellac",
+                "publisher": "The Building Conservation Directory",
+                "url": "https://buildingconservation.com/articles/shellac/shellac.htm",
+                "tier": 2
+              }
+            ]
+          }
+        ],
+        "produces": [
+          {
+            "id": "polished"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fuming",
+      "name": "Fuming",
+      "description": "Darkening tannin-rich wood, chiefly white oak, by exposing it to ammonia fumes, which react with the tannins to give a permanent brown color; the result is fumed oak.",
+      "tags": [
+        "earthy",
+        "natural-materials",
+        "handcrafted",
+        "traditional"
+      ],
+      "sources": [
+        {
+          "title": "Fumed finish: authentic Arts and Crafts - FineWoodworking Facebook Icon LinkedIn Icon Email Icon Pinterest Icon Twitter Icon X Instagram Icon Tiktok Icon YouTube Icon Navigation Search Icon Fine Woodw",
+          "publisher": "Fine Woodworking",
+          "url": "https://www.finewoodworking.com/2006/09/01/fumed-finish-authentic-arts-and-crafts",
+          "tier": 2
+        },
+        {
+          "title": "How to Fume Furniture with Ammonia - FineWoodworking Facebook Icon LinkedIn Icon Email Icon Pinterest Icon Twitter Icon X Instagram Icon Tiktok Icon YouTube Icon Navigation Search Icon Fine Woodworkin",
+          "publisher": "Fine Woodworking",
+          "url": "https://www.finewoodworking.com/2006/08/15/how-to-fume-furniture-with-ammonia",
+          "tier": 2
+        },
+        {
+          "title": "Fumed Oak & Wood Stains | Arts & Crafts Homes Online",
+          "publisher": "Arts & Crafts Homes",
+          "url": "https://artsandcraftshomes.com/fumed-oak-wood-stains",
+          "tier": 2
+        },
+        {
+          "title": "Ammonia fuming - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ammonia_fuming",
+          "tier": 3
+        }
+      ],
+      "markers": "Warm chestnut-to-deep brown oak, color sunk into the wood without obscuring the grain; quartersawn ray fleck stands out; slight tone variation board to board; satin sheen.",
+      "domains": {
+        "furniture": {
+          "media": [
+            "tables",
+            "seating"
+          ],
+          "markers": "Quartersawn oak tables and chairs in even chocolate-brown with prominent ray fleck, under a light shellac or oil finish.",
+          "sources": [
+            {
+              "title": "Fumed finish: authentic Arts and Crafts - FineWoodworking Facebook Icon LinkedIn Icon Email Icon Pinterest Icon Twitter Icon X Instagram Icon Tiktok Icon YouTube Icon Navigation Search Icon Fine Woodw",
+              "publisher": "Fine Woodworking",
+              "url": "https://www.finewoodworking.com/2006/09/01/fumed-finish-authentic-arts-and-crafts",
+              "tier": 2
+            },
+            {
+              "title": "Fumed Oak & Wood Stains | Arts & Crafts Homes Online",
+              "publisher": "Arts & Crafts Homes",
+              "url": "https://artsandcraftshomes.com/fumed-oak-wood-stains",
+              "tier": 2
+            },
+            {
+              "title": "Ammonia fuming - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Ammonia_fuming",
+              "tier": 3
+            }
+          ]
+        },
+        "interior": {
+          "markers": "Oak interior woodwork and trim in warm brown, waxed to a satin finish.",
+          "sources": [
+            {
+              "title": "Fumed Oak & Wood Stains | Arts & Crafts Homes Online",
+              "publisher": "Arts & Crafts Homes",
+              "url": "https://artsandcraftshomes.com/fumed-oak-wood-stains",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "arts-and-crafts",
+            "sources": [
+              {
+                "title": "Fumed finish: authentic Arts and Crafts - FineWoodworking Facebook Icon LinkedIn Icon Email Icon Pinterest Icon Twitter Icon X Instagram Icon Tiktok Icon YouTube Icon Navigation Search Icon Fine Woodw",
+                "publisher": "Fine Woodworking",
+                "url": "https://www.finewoodworking.com/2006/09/01/fumed-finish-authentic-arts-and-crafts",
+                "tier": 2
+              },
+              {
+                "title": "Ammonia fuming - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Ammonia_fuming",
+                "tier": 3
+              }
+            ]
+          },
+          {
+            "id": "craftsman",
+            "sources": [
+              {
+                "title": "Fumed Oak & Wood Stains | Arts & Crafts Homes Online",
+                "publisher": "Arts & Crafts Homes",
+                "url": "https://artsandcraftshomes.com/fumed-oak-wood-stains",
+                "tier": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gilding",
+      "name": "Gilding",
+      "description": "Applying thin gold or silver leaf to a prepared surface, either over an adhesive size or by water gilding on gesso and clay bole, which allows burnishing to a polish.",
+      "tags": [
+        "gilded",
+        "ornate"
+      ],
+      "sources": [
+        {
+          "title": "Gilding (Getty AAT 300053789)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300053789",
+          "tier": 1
+        },
+        {
+          "title": "Water gilding: tools, instructions and tips | Manetti Goldbeater",
+          "publisher": "Giusto Manetti Battiloro",
+          "url": "https://www.manetti.com/en/water-gilding/",
+          "tier": 2
+        }
+      ],
+      "ids": {
+        "aat": "300053789",
+        "wikidata": "Q1334300"
+      },
+      "markers": "Bright metallic gold over carved detail; burnished areas mirror-smooth and brilliant beside matte ones; warmer tone over red bole, paler over yellow.",
+      "domains": {
+        "furniture": {
+          "markers": "Carved wood frames and furniture covered in gold leaf, burnished highlights alternating with matte sections.",
+          "sources": [
+            {
+              "title": "Water gilding: tools, instructions and tips | Manetti Goldbeater",
+              "publisher": "Giusto Manetti Battiloro",
+              "url": "https://www.manetti.com/en/water-gilding/",
+              "tier": 2
+            }
+          ]
+        },
+        "fine-art": {
+          "media": [
+            "sculpture"
+          ],
+          "markers": "Statues covered in gold leaf, burnishing bringing out their three-dimensional form.",
+          "sources": [
+            {
+              "title": "Water gilding: tools, instructions and tips | Manetti Goldbeater",
+              "publisher": "Giusto Manetti Battiloro",
+              "url": "https://www.manetti.com/en/water-gilding/",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "variants": [
+        {
+          "name": "Water gilding",
+          "description": "Loose gold or silver leaf laid on gesso and clay bole wetted with a glue solution, then burnished with an agate tool.",
+          "markers": "Mirror-bright, smooth burnished gold over crisp carved edges, alternating with matte sections; warm over red bole, pale over yellow bole.",
+          "sources": [
+            {
+              "title": "Water gilding: tools, instructions and tips | Manetti Goldbeater",
+              "publisher": "Giusto Manetti Battiloro",
+              "url": "https://www.manetti.com/en/water-gilding/",
+              "tier": 2
+            }
+          ]
+        },
+        {
+          "name": "Size gilding",
+          "description": "Gilding in which leaf is laid onto an adhesive size, water-, alcohol- or oil-based, instead of wetted bole.",
+          "markers": "Gold or silver leaf left unburnished, without the mirror-polished highlights of water gilding.",
+          "sources": [
+            {
+              "title": "Water gilding: tools, instructions and tips | Manetti Goldbeater",
+              "publisher": "Giusto Manetti Battiloro",
+              "url": "https://www.manetti.com/en/water-gilding/",
+              "tier": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intarsia",
+      "name": "Intarsia",
+      "description": "Decorative technique, named in 15th-century Italy, in which precision-cut pieces of different woods are fitted tightly together into pictures or patterns, or laid into a solid ground; also worked in stone and other materials.",
+      "tags": [
+        "italian",
+        "handcrafted",
+        "natural-materials",
+        "geometric"
+      ],
+      "sources": [
+        {
+          "title": "Intarsia (Getty AAT 300053852)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300053852",
+          "tier": 1
+        },
+        {
+          "title": "The Art of Intarsia: Exploring the Intricate Craftsmanship of Wood Inlay - Invaluable",
+          "publisher": "Invaluable",
+          "url": "https://www.invaluable.com/blog/the-art-of-intarsia/",
+          "tier": 2
+        },
+        {
+          "title": "Exquisite Rot: Spalted Wood and the Lost Art of Intarsia — The Public Domain Review",
+          "publisher": "The Public Domain Review",
+          "url": "https://publicdomainreview.org/essay/exquisite-rot-spalted-wood-and-the-lost-art-of-intarsia/",
+          "tier": 2
+        },
+        {
+          "title": "National Gallery, London: Renaissance intarsia and the Battle of San Romano",
+          "publisher": "The Frame Blog",
+          "url": "https://theframeblog.com/2024/07/26/national-gallery-london-renaissance-intarsia-and-the-battle-of-san-romano/",
+          "tier": 2
+        }
+      ],
+      "ids": {
+        "aat": "300053852",
+        "wikidata": "Q832266"
+      },
+      "markers": "Pictures in fitted wood of pale, mid and dark tones with natural grain visible; tight joins; linear-perspective scenes such as trompe-l'oeil cupboards, shelves and geometric solids.",
+      "domains": {
+        "interior": {
+          "markers": "Walls and built-in cupboards of a study or sacristy panelled entirely in trompe-l'oeil intarsia, framed by fluted pilasters and guilloche friezes.",
+          "sources": [
+            {
+              "title": "National Gallery, London: Renaissance intarsia and the Battle of San Romano",
+              "publisher": "The Frame Blog",
+              "url": "https://theframeblog.com/2024/07/26/national-gallery-london-renaissance-intarsia-and-the-battle-of-san-romano/",
+              "tier": 2
+            }
+          ]
+        },
+        "furniture": {
+          "media": [
+            "seating",
+            "storage"
+          ],
+          "markers": "Choir-stall backs with perspective scenes in inlaid wood between inlaid pilasters; chests and cabinets of walnut inlaid with various woods.",
+          "sources": [
+            {
+              "title": "National Gallery, London: Renaissance intarsia and the Battle of San Romano",
+              "publisher": "The Frame Blog",
+              "url": "https://theframeblog.com/2024/07/26/national-gallery-london-renaissance-intarsia-and-the-battle-of-san-romano/",
+              "tier": 2
+            },
+            {
+              "title": "Exquisite Rot: Spalted Wood and the Lost Art of Intarsia — The Public Domain Review",
+              "publisher": "The Public Domain Review",
+              "url": "https://publicdomainreview.org/essay/exquisite-rot-spalted-wood-and-the-lost-art-of-intarsia/",
+              "tier": 2
+            },
+            {
+              "title": "The Art of Intarsia: Exploring the Intricate Craftsmanship of Wood Inlay - Invaluable",
+              "publisher": "Invaluable",
+              "url": "https://www.invaluable.com/blog/the-art-of-intarsia/",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "variants": [
+        {
+          "name": "Trompe-l'oeil intarsia",
+          "description": "Intarsia that uses linear perspective to depict illusionary objects and architecture, as in 15th-century Italian studioli and sacristies.",
+          "markers": "Illusionary half-open latticed cupboards, shelves and desks holding books, instruments and scientific tools, rendered in inlaid wood with deep perspective.",
+          "sources": [
+            {
+              "title": "National Gallery, London: Renaissance intarsia and the Battle of San Romano",
+              "publisher": "The Frame Blog",
+              "url": "https://theframeblog.com/2024/07/26/national-gallery-london-renaissance-intarsia-and-the-battle-of-san-romano/",
+              "tier": 2
+            },
+            {
+              "title": "The Art of Intarsia: Exploring the Intricate Craftsmanship of Wood Inlay - Invaluable",
+              "publisher": "Invaluable",
+              "url": "https://www.invaluable.com/blog/the-art-of-intarsia/",
+              "tier": 2
+            }
+          ]
+        },
+        {
+          "name": "Marble intarsia",
+          "description": "Intarsia worked in coloured marbles, as in the floor of Siena Cathedral.",
+          "markers": "Floor panels of figural scenes in black, white, green, red and blue marble, framed by guilloche and polychrome bands, with strong light-dark contrast.",
+          "sources": [
+            {
+              "title": "The Art of Intarsia: Exploring the Intricate Craftsmanship of Wood Inlay - Invaluable",
+              "publisher": "Invaluable",
+              "url": "https://www.invaluable.com/blog/the-art-of-intarsia/",
+              "tier": 2
+            },
+            {
+              "title": "National Gallery, London: Renaissance intarsia and the Battle of San Romano",
+              "publisher": "The Frame Blog",
+              "url": "https://theframeblog.com/2024/07/26/national-gallery-london-renaissance-intarsia-and-the-battle-of-san-romano/",
+              "tier": 2
+            }
+          ]
+        },
+        {
+          "name": "Sawn intarsia",
+          "description": "Intarsia as practised in 16th-century Augsburg, a closely guarded guild technique in which naturally spalted wood became a regular material.",
+          "markers": "Inlaid wood with slivers of spalted green oak, mottled with veins of turquoise and aquamarine among natural wood tones.",
+          "sources": [
+            {
+              "title": "Exquisite Rot: Spalted Wood and the Lost Art of Intarsia — The Public Domain Review",
+              "publisher": "The Public Domain Review",
+              "url": "https://publicdomainreview.org/essay/exquisite-rot-spalted-wood-and-the-lost-art-of-intarsia/",
+              "tier": 2
+            }
+          ]
+        },
+        {
+          "name": "Taracea",
+          "description": "Inlay of the Nasrid kingdom of Granada, combining wood, ivory and bone in geometric decoration on caskets and desks.",
+          "markers": "Complex geometric knots, interlacing, stepped zigzags and chain patterns in wood, ivory and bone, mostly straight-lined, in bands and borders.",
+          "sources": [
+            {
+              "title": "National Gallery, London: Renaissance intarsia and the Battle of San Romano",
+              "publisher": "The Frame Blog",
+              "url": "https://theframeblog.com/2024/07/26/national-gallery-london-renaissance-intarsia-and-the-battle-of-san-romano/",
+              "tier": 2
+            }
+          ]
+        }
+      ],
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "renaissance",
+            "sources": [
+              {
+                "title": "National Gallery, London: Renaissance intarsia and the Battle of San Romano",
+                "publisher": "The Frame Blog",
+                "url": "https://theframeblog.com/2024/07/26/national-gallery-london-renaissance-intarsia-and-the-battle-of-san-romano/",
+                "tier": 2
+              },
+              {
+                "title": "The Art of Intarsia: Exploring the Intricate Craftsmanship of Wood Inlay - Invaluable",
+                "publisher": "Invaluable",
+                "url": "https://www.invaluable.com/blog/the-art-of-intarsia/",
+                "tier": 2
+              },
+              {
+                "title": "Exquisite Rot: Spalted Wood and the Lost Art of Intarsia — The Public Domain Review",
+                "publisher": "The Public Domain Review",
+                "url": "https://publicdomainreview.org/essay/exquisite-rot-spalted-wood-and-the-lost-art-of-intarsia/",
+                "tier": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "japanning",
+      "name": "Japanning",
+      "description": "European imitation of East Asian lacquer, made with varnishes such as shellac or sandarac on wood or metal and painted with gold and colored decoration.",
+      "tags": [
+        "painted-finish",
+        "gilded",
+        "ornate",
+        "historical",
+        "british"
+      ],
+      "sources": [
+        {
+          "title": "Japanning (Getty AAT 300053797)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300053797",
+          "tier": 1
+        },
+        {
+          "title": "The influence of East Asian lacquer on European furniture · V&A",
+          "publisher": "Victoria and Albert Museum",
+          "url": "https://www.vam.ac.uk/articles/east-asian-lacquer-influence",
+          "tier": 1
+        },
+        {
+          "title": "A cabinet of curiosity: an early English japanned cabinet in the collection of the National Gallery of Victoria | NGV National Gallery of Victoria",
+          "publisher": "National Gallery of Victoria",
+          "url": "https://www.ngv.vic.gov.au/essay/a-cabinet-of-curiosity-an-early-english-japanned-cabinet-in-the-collection-of-the-national-gallery-of-victoria/",
+          "tier": 1
+        }
+      ],
+      "ids": {
+        "aat": "300053797",
+        "wikidata": "Q17146917"
+      },
+      "markers": "Lustrous black or bright red ground painted in gold, silver and colors with chinoiserie landscapes, rocks, flowers, birds and robed figures, often at mismatched scales.",
+      "domains": {
+        "furniture": {
+          "media": [
+            "storage",
+            "seating",
+            "beds"
+          ],
+          "markers": "Cabinets on stands, bureau-cabinets, chairs, beds and chests in black or red japanned grounds with gilt chinoiserie scenes and geometric borders.",
+          "sources": [
+            {
+              "title": "The influence of East Asian lacquer on European furniture · V&A",
+              "publisher": "Victoria and Albert Museum",
+              "url": "https://www.vam.ac.uk/articles/east-asian-lacquer-influence",
+              "tier": 1
+            },
+            {
+              "title": "A cabinet of curiosity: an early English japanned cabinet in the collection of the National Gallery of Victoria | NGV National Gallery of Victoria",
+              "publisher": "National Gallery of Victoria",
+              "url": "https://www.ngv.vic.gov.au/essay/a-cabinet-of-curiosity-an-early-english-japanned-cabinet-in-the-collection-of-the-national-gallery-of-victoria/",
+              "tier": 1
+            }
+          ]
+        },
+        "decorative-arts": {
+          "media": [
+            "metalwork"
+          ],
+          "markers": "Boxes, dressing cases, snuff-boxes, fans and tinplate wares coated in a lustrous lacquer-like varnish.",
+          "sources": [
+            {
+              "title": "The influence of East Asian lacquer on European furniture · V&A",
+              "publisher": "Victoria and Albert Museum",
+              "url": "https://www.vam.ac.uk/articles/east-asian-lacquer-influence",
+              "tier": 1
+            }
+          ]
+        }
+      },
+      "variants": [
+        {
+          "name": "Vernis Martin",
+          "description": "High-quality French imitation lacquer of lustrous colored varnishes applied to furniture and personal items such as snuff-boxes and fans.",
+          "markers": "Lustrous varnished surface in bright black, red, green or deep blue, with finely painted decoration.",
+          "sources": [
+            {
+              "title": "The influence of East Asian lacquer on European furniture · V&A",
+              "publisher": "Victoria and Albert Museum",
+              "url": "https://www.vam.ac.uk/articles/east-asian-lacquer-influence",
+              "tier": 1
+            }
+          ]
+        }
+      ],
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "chinoiserie",
+            "sources": [
+              {
+                "title": "The influence of East Asian lacquer on European furniture · V&A",
+                "publisher": "Victoria and Albert Museum",
+                "url": "https://www.vam.ac.uk/articles/east-asian-lacquer-influence",
+                "tier": 1
+              },
+              {
+                "title": "A cabinet of curiosity: an early English japanned cabinet in the collection of the National Gallery of Victoria | NGV National Gallery of Victoria",
+                "publisher": "National Gallery of Victoria",
+                "url": "https://www.ngv.vic.gov.au/essay/a-cabinet-of-curiosity-an-early-english-japanned-cabinet-in-the-collection-of-the-national-gallery-of-victoria/",
+                "tier": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "kintsugi",
+      "name": "Kintsugi",
+      "description": "Traditional Japanese repair of broken or chipped ceramics in which urushi lacquer joins the fragments and is dusted or mixed with gold or silver powder, leaving the mended lines visible.",
+      "tags": [
+        "japanese",
+        "gilded",
+        "handcrafted",
+        "traditional"
+      ],
+      "sources": [
+        {
+          "title": "Kintsugi (Getty AAT 300445653)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300445653",
+          "tier": 1
+        },
+        {
+          "title": "Repair and Recycle: Practicing Kintsugi with Conservators",
+          "publisher": "Los Angeles County Museum of Art (Unframed)",
+          "url": "https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators",
+          "tier": 1
+        },
+        {
+          "title": "Mended Bodies: Ceramics Restored with Lacquer",
+          "publisher": "Ars Orientalis (Freer Gallery of Art / University of Michigan)",
+          "url": "https://journals.publishing.umich.edu/ars/article/id/3995",
+          "tier": 1
+        },
+        {
+          "title": "Kintsugi (金継ぎ)",
+          "publisher": "Musubi Kiln",
+          "url": "https://musubikiln.com/blogs/glossary/kintsugi",
+          "tier": 2
+        }
+      ],
+      "ids": {
+        "aat": "300445653"
+      },
+      "markers": "Visible seams of glossy burnished gold tracing the break lines across a ceramic body: smooth, free-flowing lines of varied thickness, with filled chips and losses covered in gold.",
+      "domains": {
+        "decorative-arts": {
+          "media": [
+            "ceramics"
+          ],
+          "markers": "Tea bowls and tea containers whose cracks, chips and joins are traced in lacquer dusted with gold; larger losses may be filled with shards from another ceramic.",
+          "sources": [
+            {
+              "title": "Mended Bodies: Ceramics Restored with Lacquer",
+              "publisher": "Ars Orientalis (Freer Gallery of Art / University of Michigan)",
+              "url": "https://journals.publishing.umich.edu/ars/article/id/3995",
+              "tier": 1
+            }
+          ]
+        }
+      },
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "japanese",
+            "sources": [
+              {
+                "title": "Kintsugi (Getty AAT 300445653)",
+                "publisher": "Getty Art & Architecture Thesaurus",
+                "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300445653",
+                "tier": 1
+              },
+              {
+                "title": "Repair and Recycle: Practicing Kintsugi with Conservators",
+                "publisher": "Los Angeles County Museum of Art (Unframed)",
+                "url": "https://unframed.lacma.org/2021/08/04/repair-and-recycle-practicing-kintsugi-conservators",
+                "tier": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "limewash",
+      "name": "Limewash",
+      "description": "Paint of slaked lime and water, plain white or tinted with earth pigments, that soaks into masonry, render or wood and cures by carbonation into a breathable mineral coat.",
+      "tags": [
+        "painted-finish",
+        "light",
+        "rustic",
+        "vernacular"
+      ],
+      "sources": [
+        {
+          "title": "Limewash: An Old Practice and a Good One (U.S. National Park Service) Lock",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/articles/limewash-an-old-practice-and-a-good-one.htm",
+          "tier": 1
+        },
+        {
+          "title": "Limewash | Paint Finishes | Farrow & Ball",
+          "publisher": "Farrow & Ball",
+          "url": "https://www.farrow-ball.com/us/paint-finishes/limewash",
+          "tier": 2
+        },
+        {
+          "title": "Whitewash - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Whitewash",
+          "tier": 3
+        }
+      ],
+      "markers": "Flat, chalky mineral coat with a soft crystalline glow; mottled color that lightens or darkens with the porosity of the wall; bright white or earth tints of cream, yellow and brown.",
+      "domains": {
+        "architecture": {
+          "media": [
+            "buildings"
+          ],
+          "markers": "Exterior masonry, brick and render walls in bright opaque white or earth tints, slightly uneven, with texture of the wall showing through.",
+          "sources": [
+            {
+              "title": "Whitewash - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Whitewash",
+              "tier": 3
+            },
+            {
+              "title": "Limewash: An Old Practice and a Good One (U.S. National Park Service) Lock",
+              "publisher": "U.S. National Park Service",
+              "url": "https://www.nps.gov/articles/limewash-an-old-practice-and-a-good-one.htm",
+              "tier": 1
+            },
+            {
+              "title": "Limewash | Paint Finishes | Farrow & Ball",
+              "publisher": "Farrow & Ball",
+              "url": "https://www.farrow-ball.com/us/paint-finishes/limewash",
+              "tier": 2
+            }
+          ]
+        },
+        "interior": {
+          "markers": "Wall finish on lime-rendered walls with a gently textured, mottled color that deepens and lightens across the surface.",
+          "sources": [
+            {
+              "title": "Limewash | Paint Finishes | Farrow & Ball",
+              "publisher": "Farrow & Ball",
+              "url": "https://www.farrow-ball.com/us/paint-finishes/limewash",
+              "tier": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "marquetry",
+      "name": "Marquetry",
+      "description": "Decorative technique in which small, specially shaped pieces of wood veneer, sometimes with ivory, shell or other materials, are assembled so that the entire surface is veneered, forming a picture or design.",
+      "tags": [
+        "handcrafted",
+        "natural-materials",
+        "ornate"
+      ],
+      "sources": [
+        {
+          "title": "Marquetry (Getty AAT 300053853)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300053853",
+          "tier": 1
+        },
+        {
+          "title": "Marquetry",
+          "publisher": "EBSCO Research Starters",
+          "url": "https://www.ebsco.com/research-starters/visual-arts/marquetry",
+          "tier": 1
+        },
+        {
+          "title": "Dutch marquetry furniture - Rijksmuseum",
+          "publisher": "Rijksmuseum",
+          "url": "https://www.rijksmuseum.nl/en/research/our-research/conservation-science/furniture/dutch-marquetry",
+          "tier": 1
+        },
+        {
+          "title": "About Marquetry",
+          "publisher": "Marquetry Society of Canada",
+          "url": "https://marquetrysociety.ca/about/",
+          "tier": 2
+        }
+      ],
+      "ids": {
+        "aat": "300053853",
+        "wikidata": "Q1049923"
+      },
+      "markers": "Flat, sanded surface entirely covered in fitted wood veneers of differing colors and grain directions forming a picture or pattern, with near-invisible joins under a sealing finish.",
+      "domains": {
+        "furniture": {
+          "media": [
+            "tables",
+            "storage"
+          ],
+          "markers": "Cabinet doors and table tops with large flat areas covered in marquetry flower bouquets or geometric patterns, framed by relatively small mouldings.",
+          "sources": [
+            {
+              "title": "Dutch marquetry furniture - Rijksmuseum",
+              "publisher": "Rijksmuseum",
+              "url": "https://www.rijksmuseum.nl/en/research/our-research/conservation-science/furniture/dutch-marquetry",
+              "tier": 1
+            }
+          ]
+        },
+        "fine-art": {
+          "markers": "Pictures assembled from wood veneers and mounted on a backboard, sanded smooth and finished with oil.",
+          "sources": [
+            {
+              "title": "About Marquetry",
+              "publisher": "Marquetry Society of Canada",
+              "url": "https://marquetrysociety.ca/about/",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "variants": [
+        {
+          "name": "Floral marquetry",
+          "description": "Marquetry depicting flower bouquets, as on late 17th-century Dutch cabinets and tables.",
+          "markers": "Bouquets of flowers laid in wood veneer across the large flat panels of cabinet doors and table tops.",
+          "sources": [
+            {
+              "title": "Dutch marquetry furniture - Rijksmuseum",
+              "publisher": "Rijksmuseum",
+              "url": "https://www.rijksmuseum.nl/en/research/our-research/conservation-science/furniture/dutch-marquetry",
+              "tier": 1
+            }
+          ]
+        },
+        {
+          "name": "Seaweed marquetry",
+          "description": "Marquetry composed of symmetrical scrolls.",
+          "markers": "Symmetrical scrolling designs laid in wood veneer across a flat surface.",
+          "sources": [
+            {
+              "title": "Marquetry",
+              "publisher": "EBSCO Research Starters",
+              "url": "https://www.ebsco.com/research-starters/visual-arts/marquetry",
+              "tier": 1
+            }
+          ]
+        },
+        {
+          "name": "Parquetry",
+          "description": "Marquetry composed of geometric patterns.",
+          "markers": "Geometric patterns, such as stars, formed from fitted wood veneers across a flat surface.",
+          "sources": [
+            {
+              "title": "Marquetry",
+              "publisher": "EBSCO Research Starters",
+              "url": "https://www.ebsco.com/research-starters/visual-arts/marquetry",
+              "tier": 1
+            },
+            {
+              "title": "Dutch marquetry furniture - Rijksmuseum",
+              "publisher": "Rijksmuseum",
+              "url": "https://www.rijksmuseum.nl/en/research/our-research/conservation-science/furniture/dutch-marquetry",
+              "tier": 1
+            }
+          ]
+        }
+      ],
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "dutch-golden-age",
+            "sources": [
+              {
+                "title": "Dutch marquetry furniture - Rijksmuseum",
+                "publisher": "Rijksmuseum",
+                "url": "https://www.rijksmuseum.nl/en/research/our-research/conservation-science/furniture/dutch-marquetry",
+                "tier": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "raku",
+      "name": "Raku",
+      "description": "Low-fired pottery removed from the kiln while still glowing hot; Japanese raku cools in open air, while Western raku is set in combustibles that smoke and reduce it.",
+      "tags": [
+        "japanese",
+        "handcrafted",
+        "rustic",
+        "organic"
+      ],
+      "sources": [
+        {
+          "title": "Raku (Getty AAT 300251413)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300251413",
+          "tier": 1
+        },
+        {
+          "title": "Naked Raku Technique from Experts Charlie and Linda Riggs",
+          "publisher": "Ceramic Arts Network",
+          "url": "https://ceramicartsnetwork.org/daily/firing-techniques/raku-firing/charlie-and-linda-riggs-naked-raku-technique/",
+          "tier": 2
+        },
+        {
+          "title": "Raku ware - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Raku_ware",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "aat": "300251413",
+        "wikidata": "Q648899"
+      },
+      "markers": "Crazed glaze with crackle lines stained black by smoke, soot-blackened bare clay, and uneven, mottled color from random reduction.",
+      "variants": [
+        {
+          "name": "Naked raku",
+          "description": "Raku in which a thick slip coat cracks during firing so smoke reaches the clay only through the cracks; the slip is removed after cooling.",
+          "markers": "Pale clay surface covered in a fine web of black crackle lines, with masked areas left solid black.",
+          "sources": [
+            {
+              "title": "Naked Raku Technique from Experts Charlie and Linda Riggs",
+              "publisher": "Ceramic Arts Network",
+              "url": "https://ceramicartsnetwork.org/daily/firing-techniques/raku-firing/charlie-and-linda-riggs-naked-raku-technique/",
+              "tier": 2
+            }
+          ]
+        }
+      ],
+      "relations": {
+        "produces": [
+          {
+            "id": "crackle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sgraffito",
+      "name": "Sgraffito",
+      "description": "Scratching through a top coat on a hard surface to reveal a contrasting layer beneath; used on tinted plaster walls, on slip- or glaze-coated pottery, and in paint.",
+      "tags": [
+        "handcrafted",
+        "ornate",
+        "italian",
+        "central-european"
+      ],
+      "sources": [
+        {
+          "title": "Sgraffito (Getty AAT 300266416)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300266416",
+          "tier": 1
+        },
+        {
+          "title": "Background on Sgraffito & Art Nouveau | National Building Arts Center",
+          "publisher": "National Building Arts Center",
+          "url": "https://web.nationalbuildingarts.org/collections/cementitious/sgraffito/background-on-sgraffito",
+          "tier": 1
+        },
+        {
+          "title": "Sgraffito - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sgraffito",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "aat": "300266416",
+        "wikidata": "Q471835"
+      },
+      "markers": "Crisp two-tone linear design: scratched lines and cut-back areas exposing a contrasting under-color, slightly recessed into the top layer.",
+      "domains": {
+        "architecture": {
+          "media": [
+            "buildings"
+          ],
+          "markers": "Facades covered in scratched two-tone plaster: ornamental and graphic decoration, or rows of fine geometric patterns.",
+          "sources": [
+            {
+              "title": "Background on Sgraffito & Art Nouveau | National Building Arts Center",
+              "publisher": "National Building Arts Center",
+              "url": "https://web.nationalbuildingarts.org/collections/cementitious/sgraffito/background-on-sgraffito",
+              "tier": 1
+            },
+            {
+              "title": "Sgraffito - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Sgraffito",
+              "tier": 3
+            }
+          ]
+        }
+      },
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "renaissance",
+            "sources": [
+              {
+                "title": "Background on Sgraffito & Art Nouveau | National Building Arts Center",
+                "publisher": "National Building Arts Center",
+                "url": "https://web.nationalbuildingarts.org/collections/cementitious/sgraffito/background-on-sgraffito",
+                "tier": 1
+              },
+              {
+                "title": "Sgraffito - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Sgraffito",
+                "tier": 3
+              }
+            ]
+          },
+          {
+            "id": "art-nouveau",
+            "sources": [
+              {
+                "title": "Background on Sgraffito & Art Nouveau | National Building Arts Center",
+                "publisher": "National Building Arts Center",
+                "url": "https://web.nationalbuildingarts.org/collections/cementitious/sgraffito/background-on-sgraffito",
+                "tier": 1
+              },
+              {
+                "title": "Sgraffito - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Sgraffito",
+                "tier": 3
+              }
+            ]
+          },
+          {
+            "id": "arts-and-crafts",
+            "sources": [
+              {
+                "title": "Background on Sgraffito & Art Nouveau | National Building Arts Center",
+                "publisher": "National Building Arts Center",
+                "url": "https://web.nationalbuildingarts.org/collections/cementitious/sgraffito/background-on-sgraffito",
+                "tier": 1
+              },
+              {
+                "title": "Sgraffito - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Sgraffito",
+                "tier": 3
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "shibori",
+      "name": "Shibori",
+      "description": "Japanese shaped-resist dyeing in which cloth is bound, stitched, pleated, or folded and clamped before dyeing, so the compressed areas resist the dye.",
+      "tags": [
+        "japanese",
+        "handcrafted",
+        "organic"
+      ],
+      "sources": [
+        {
+          "title": "Shibori (Getty AAT 300400692)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300400692",
+          "tier": 1
+        },
+        {
+          "title": "Shibori: The Art of Tie-Dyeing | Kyoto National Museum",
+          "publisher": "Kyoto National Museum",
+          "url": "https://www.kyohaku.go.jp/old/eng/theme/floor1_4/past/tex_20150325.html",
+          "tier": 1
+        },
+        {
+          "title": "Shibori - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shibori",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "aat": "300400692",
+        "wikidata": "Q2520047"
+      },
+      "markers": "Pale undyed patterns against a dyed ground: small rings and dots, spider-web bursts, water-like ripples or diagonal streaks; sometimes indigo blue and white.",
+      "domains": {
+        "fashion": {
+          "media": [
+            "apparel"
+          ],
+          "markers": "Kimono patterned over large areas with tied dots, rings and multicolored, sometimes pictorial resist designs.",
+          "sources": [
+            {
+              "title": "Shibori: The Art of Tie-Dyeing | Kyoto National Museum",
+              "publisher": "Kyoto National Museum",
+              "url": "https://www.kyohaku.go.jp/old/eng/theme/floor1_4/past/tex_20150325.html",
+              "tier": 1
+            },
+            {
+              "title": "Shibori - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Shibori",
+              "tier": 3
+            }
+          ]
+        }
+      },
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "japanese",
+            "sources": [
+              {
+                "title": "Shibori: The Art of Tie-Dyeing | Kyoto National Museum",
+                "publisher": "Kyoto National Museum",
+                "url": "https://www.kyohaku.go.jp/old/eng/theme/floor1_4/past/tex_20150325.html",
+                "tier": 1
+              },
+              {
+                "title": "Shibori - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Shibori",
+                "tier": 3
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tadelakt",
+      "name": "Tadelakt",
+      "description": "Moroccan lime plaster compacted and burnished with a polishing stone, then sealed with olive-oil soap that reacts with the lime to give a water-resistant surface.",
+      "tags": [
+        "african",
+        "earthy",
+        "natural-materials",
+        "handcrafted"
+      ],
+      "sources": [
+        {
+          "title": "Tadelakt - KREIDEZEIT Naturfarben GmbH",
+          "publisher": "Kreidezeit",
+          "url": "https://www.kreidezeit.de/en/product/tadelakt/",
+          "tier": 2
+        },
+        {
+          "title": "Tadelakt: What you Need to Know About Moroccan Plaster | Homebuilding Homebuilding and Renovating",
+          "publisher": "Homebuilding & Renovating",
+          "url": "https://homebuilding.co.uk/advice/tadelakt",
+          "tier": 2
+        },
+        {
+          "title": "Moroccan Tadelakt: History & Manufacture | 2020-06-17 | Walls & Ceilings Walls & Ceilings logo Walls & Ceilings logo",
+          "publisher": "Walls & Ceilings",
+          "url": "https://www.wconline.com/articles/93113-moroccan-tadelakt-history-manufacture",
+          "tier": 2
+        },
+        {
+          "title": "Tadelakt - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tadelakt",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "wikidata": "Q1357903"
+      },
+      "markers": "Seamless lime plaster with a soft satin-to-glossy sheen and velvety, stone-like depth; mottled, slightly cloudy tone; tinted any color, deep red traditional; faint hairline cracks.",
+      "domains": {
+        "interior": {
+          "markers": "Jointless polished plaster on bathroom walls, baths, sinks and vanities, curving continuously with a soft velvety gleam.",
+          "sources": [
+            {
+              "title": "Tadelakt: What you Need to Know About Moroccan Plaster | Homebuilding Homebuilding and Renovating",
+              "publisher": "Homebuilding & Renovating",
+              "url": "https://homebuilding.co.uk/advice/tadelakt",
+              "tier": 2
+            },
+            {
+              "title": "Tadelakt - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Tadelakt",
+              "tier": 3
+            },
+            {
+              "title": "Tadelakt - KREIDEZEIT Naturfarben GmbH",
+              "publisher": "Kreidezeit",
+              "url": "https://www.kreidezeit.de/en/product/tadelakt/",
+              "tier": 2
+            }
+          ]
+        },
+        "architecture": {
+          "media": [
+            "buildings"
+          ],
+          "markers": "Smooth burnished lime plaster on exterior facades and hammam walls, with a soft sheen and a mottled tone, traditionally deep red.",
+          "sources": [
+            {
+              "title": "Moroccan Tadelakt: History & Manufacture | 2020-06-17 | Walls & Ceilings Walls & Ceilings logo Walls & Ceilings logo",
+              "publisher": "Walls & Ceilings",
+              "url": "https://www.wconline.com/articles/93113-moroccan-tadelakt-history-manufacture",
+              "tier": 2
+            },
+            {
+              "title": "Tadelakt - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Tadelakt",
+              "tier": 3
+            },
+            {
+              "title": "Tadelakt: What you Need to Know About Moroccan Plaster | Homebuilding Homebuilding and Renovating",
+              "publisher": "Homebuilding & Renovating",
+              "url": "https://homebuilding.co.uk/advice/tadelakt",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "moroccan",
+            "sources": [
+              {
+                "title": "Tadelakt - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Tadelakt",
+                "tier": 3
+              },
+              {
+                "title": "Moroccan Tadelakt: History & Manufacture | 2020-06-17 | Walls & Ceilings Walls & Ceilings logo Walls & Ceilings logo",
+                "publisher": "Walls & Ceilings",
+                "url": "https://www.wconline.com/articles/93113-moroccan-tadelakt-history-manufacture",
+                "tier": 2
+              }
+            ]
+          }
+        ],
+        "produces": [
+          {
+            "id": "polished"
+          }
+        ]
+      }
+    },
+    {
+      "id": "terrazzo-casting",
+      "name": "Terrazzo casting",
+      "description": "A composite of marble, quartz, granite or glass chips in a cement or polymer binder, poured in place or precast, then ground and polished to a uniformly textured floor or wall surface.",
+      "tags": [
+        "italian",
+        "colorful",
+        "natural-materials"
+      ],
+      "sources": [
+        {
+          "title": "Terrazzo | City of Edmonton Archives",
+          "publisher": "City of Edmonton Historical Board",
+          "url": "https://www.edmontonhistoricalboard.com/character-defining-elements/terrazzo",
+          "tier": 1
+        },
+        {
+          "title": "Terrazzo - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Terrazzo",
+          "tier": 3
+        }
+      ],
+      "markers": "Smooth polished surface densely speckled with multicolored stone or glass chips in a solid ground, often divided by thin metal strips into colored fields, lines or medallions.",
+      "relations": {
+        "produces": [
+          {
+            "id": "polished"
+          }
+        ]
+      }
+    },
+    {
+      "id": "urushi",
+      "name": "Urushi",
+      "description": "Lacquering with the refined sap of the urushi tree, applied to a wooden or other base in many thin coats, each dried and polished before the next; often decorated with sprinkled gold or silver maki-e.",
+      "tags": [
+        "japanese",
+        "handcrafted",
+        "painted-finish",
+        "dark"
+      ],
+      "sources": [
+        {
+          "title": "Urushi: All You Need to Know About Japanese Lacquer",
+          "publisher": "Japan Objects",
+          "url": "https://japanobjects.com/features/guide-to-masterpieces-of-japanese-lacquer",
+          "tier": 2
+        },
+        {
+          "title": "Japanese lacquerware - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japanese_lacquerware",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "wikidata": "Q10950753"
+      },
+      "markers": "Polished, hard lacquer in deep black or red, sometimes yellow, green or brown; often fine gold or silver powder designs and mother-of-pearl inlay.",
+      "domains": {
+        "decorative-arts": {
+          "markers": "Bowls, boxes and tea caddies in polished black or red lacquer, decorated in gold powder with plants, seasons and creatures.",
+          "sources": [
+            {
+              "title": "Urushi: All You Need to Know About Japanese Lacquer",
+              "publisher": "Japan Objects",
+              "url": "https://japanobjects.com/features/guide-to-masterpieces-of-japanese-lacquer",
+              "tier": 2
+            },
+            {
+              "title": "Japanese lacquerware - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Japanese_lacquerware",
+              "tier": 3
+            }
+          ]
+        },
+        "furniture": {
+          "media": [
+            "storage"
+          ],
+          "markers": "Cabinets and chests in polished lacquer: black grounds with gold maki-e, or inlays of mother-of-pearl and eggshell.",
+          "sources": [
+            {
+              "title": "Urushi: All You Need to Know About Japanese Lacquer",
+              "publisher": "Japan Objects",
+              "url": "https://japanobjects.com/features/guide-to-masterpieces-of-japanese-lacquer",
+              "tier": 2
+            },
+            {
+              "title": "Japanese lacquerware - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Japanese_lacquerware",
+              "tier": 3
+            }
+          ]
+        },
+        "fashion": {
+          "media": [
+            "accessories"
+          ],
+          "markers": "Small hanging cases (inro) in black lacquer with gold maki-e, colored shell inlay and gold foil.",
+          "sources": [
+            {
+              "title": "Urushi: All You Need to Know About Japanese Lacquer",
+              "publisher": "Japan Objects",
+              "url": "https://japanobjects.com/features/guide-to-masterpieces-of-japanese-lacquer",
+              "tier": 2
+            },
+            {
+              "title": "Japanese lacquerware - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Japanese_lacquerware",
+              "tier": 3
+            }
+          ]
+        }
+      },
+      "variants": [
+        {
+          "name": "Maki-e",
+          "description": "Decoration in which gold, silver or copper powder is sprinkled onto designs drawn in wet lacquer, then sealed under further layers of polished transparent lacquer.",
+          "markers": "Gold and silver powder images on black lacquer: hairline drawing, gradated shading, motifs of plants, birds and seasons, sealed flush under a polished surface.",
+          "sources": [
+            {
+              "title": "Urushi: All You Need to Know About Japanese Lacquer",
+              "publisher": "Japan Objects",
+              "url": "https://japanobjects.com/features/guide-to-masterpieces-of-japanese-lacquer",
+              "tier": 2
+            },
+            {
+              "title": "Japanese lacquerware - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Japanese_lacquerware",
+              "tier": 3
+            }
+          ]
+        },
+        {
+          "name": "Negoro",
+          "description": "Lacquer built from coats of red over black in differing thicknesses, named after the Buddhist monastery where it developed.",
+          "markers": "Rich red lacquer worn through in places to reveal deep black underneath; use-worn patches across a smooth surface.",
+          "sources": [
+            {
+              "title": "Urushi: All You Need to Know About Japanese Lacquer",
+              "publisher": "Japan Objects",
+              "url": "https://japanobjects.com/features/guide-to-masterpieces-of-japanese-lacquer",
+              "tier": 2
+            }
+          ]
+        }
+      ],
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "japanese",
+            "sources": [
+              {
+                "title": "Urushi: All You Need to Know About Japanese Lacquer",
+                "publisher": "Japan Objects",
+                "url": "https://japanobjects.com/features/guide-to-masterpieces-of-japanese-lacquer",
+                "tier": 2
+              },
+              {
+                "title": "Japanese lacquerware - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Japanese_lacquerware",
+                "tier": 3
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "venetian-plaster",
+      "name": "Venetian plaster",
+      "description": "A lime and marble-dust plaster troweled on in thin layers and burnished, giving walls and ceilings a finish that ranges from matte, stone-like marmorino to glossy, marble-like stucco veneziano.",
+      "tags": [
+        "italian",
+        "traditional",
+        "natural-materials",
+        "formal"
+      ],
+      "sources": [
+        {
+          "title": "Marmorino vs Venetian Plaster: Key Differences, Uses, and How to Choos | Vasari Lime Plaster & Paint American Express Apple Pay Diners Club Discover Google Pay Mastercard PayPal Shop Pay Visa",
+          "publisher": "Vasari Plaster",
+          "url": "https://vasariplaster.com/blogs/news/marmorino-vs-venetian-plaster-key-differences-uses-and-how-to-choose",
+          "tier": 2
+        },
+        {
+          "title": "Dulux Acratex® Venetian Plaster™ Marmorino Naturale | Dulux",
+          "publisher": "Dulux",
+          "url": "https://www.dulux.com.au/specifier/products/venetian-plaster/venetian-plaster-marmorino-naturale/",
+          "tier": 2
+        },
+        {
+          "title": "Marmorino - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marmorino",
+          "tier": 3
+        },
+        {
+          "title": "Polished plaster - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Polished_plaster",
+          "tier": 3
+        }
+      ],
+      "markers": "Smooth, dense mineral surface with soft cloudy tonal movement and illusory depth, burnished to a glass-like, marble-like sheen that shifts with light and viewing angle.",
+      "domains": {
+        "interior": {
+          "markers": "Seamless polished plaster on feature walls, ceilings, foyers and dining rooms, reading as tinted marble, sealed with wax to a soft or high sheen.",
+          "sources": [
+            {
+              "title": "Marmorino vs Venetian Plaster: Key Differences, Uses, and How to Choos | Vasari Lime Plaster & Paint American Express Apple Pay Diners Club Discover Google Pay Mastercard PayPal Shop Pay Visa",
+              "publisher": "Vasari Plaster",
+              "url": "https://vasariplaster.com/blogs/news/marmorino-vs-venetian-plaster-key-differences-uses-and-how-to-choose",
+              "tier": 2
+            },
+            {
+              "title": "Polished plaster - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Polished_plaster",
+              "tier": 3
+            }
+          ]
+        }
+      },
+      "variants": [
+        {
+          "name": "Marmorino",
+          "description": "A Venetian lime plaster of slaked lime, coarser marble flour and limestone or sand aggregate, applied in two or three coats and lightly compressed rather than polished to a mirror gloss.",
+          "markers": "Matte to soft satin stone-like wall with subtle texture and cloudy movement, diffusing light gently for an earthy, calm surface.",
+          "sources": [
+            {
+              "title": "Marmorino vs Venetian Plaster: Key Differences, Uses, and How to Choos | Vasari Lime Plaster & Paint American Express Apple Pay Diners Club Discover Google Pay Mastercard PayPal Shop Pay Visa",
+              "publisher": "Vasari Plaster",
+              "url": "https://vasariplaster.com/blogs/news/marmorino-vs-venetian-plaster-key-differences-uses-and-how-to-choose",
+              "tier": 2
+            },
+            {
+              "title": "Marmorino - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Marmorino",
+              "tier": 3
+            }
+          ]
+        },
+        {
+          "name": "Stucco veneziano",
+          "description": "Venetian plaster of aged slaked lime and very fine marble dust, applied in three to five thin coats and intensively burnished until it resembles polished marble or onyx.",
+          "markers": "Ultra-smooth, high-gloss, glass-like wall with deep marbled movement and a reflective surface that changes with light.",
+          "sources": [
+            {
+              "title": "Marmorino vs Venetian Plaster: Key Differences, Uses, and How to Choos | Vasari Lime Plaster & Paint American Express Apple Pay Diners Club Discover Google Pay Mastercard PayPal Shop Pay Visa",
+              "publisher": "Vasari Plaster",
+              "url": "https://vasariplaster.com/blogs/news/marmorino-vs-venetian-plaster-key-differences-uses-and-how-to-choose",
+              "tier": 2
+            }
+          ]
+        }
+      ],
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "mediterranean",
+            "sources": [
+              {
+                "title": "Marmorino vs Venetian Plaster: Key Differences, Uses, and How to Choos | Vasari Lime Plaster & Paint American Express Apple Pay Diners Club Discover Google Pay Mastercard PayPal Shop Pay Visa",
+                "publisher": "Vasari Plaster",
+                "url": "https://vasariplaster.com/blogs/news/marmorino-vs-venetian-plaster-key-differences-uses-and-how-to-choose",
+                "tier": 2
+              }
+            ]
+          },
+          {
+            "id": "contemporary",
+            "sources": [
+              {
+                "title": "Marmorino vs Venetian Plaster: Key Differences, Uses, and How to Choos | Vasari Lime Plaster & Paint American Express Apple Pay Diners Club Discover Google Pay Mastercard PayPal Shop Pay Visa",
+                "publisher": "Vasari Plaster",
+                "url": "https://vasariplaster.com/blogs/news/marmorino-vs-venetian-plaster-key-differences-uses-and-how-to-choose",
+                "tier": 2
+              }
+            ]
+          }
+        ],
+        "produces": [
+          {
+            "id": "polished"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wire-brushing",
+      "name": "Wire brushing",
+      "description": "Texturing wood by passing wire brushes across the board to remove the softer wood, leaving the harder grain raised; common on oak and hickory flooring.",
+      "tags": [
+        "rustic",
+        "natural-materials"
+      ],
+      "sources": [
+        {
+          "title": "Havwoods USA News | How to Choose the Right Textured Wood Flooring",
+          "publisher": "Havwoods",
+          "url": "https://www.havwoods.com/us/news/how-to-choose-the-right-textured-wood-flooring-for/",
+          "tier": 2
+        },
+        {
+          "title": "Choosing Textures for Your Wood Flooring - Real Wood Floors",
+          "publisher": "Real Wood Floors",
+          "url": "https://realwoodfloors.com/choosing-textures-for-your-wood-flooring/",
+          "tier": 2
+        },
+        {
+          "title": "Bona Wire Brush Technology – Hardwood Floors Magazine",
+          "publisher": "Hardwood Floors Magazine",
+          "url": "https://hardwoodfloorsmag.com/2018/02/09/bona-wire-brush-technology/",
+          "tier": 2
+        },
+        {
+          "title": "All About Texture - Urbanfloor Blog",
+          "publisher": "Urban Floor",
+          "url": "https://www.urbanfloor.com/blog/all-about-texture",
+          "tier": 2
+        }
+      ],
+      "markers": "Wood with hard grain lines standing slightly proud of shallow brushed-out grooves; grain pattern accentuated and tactile; matte or oiled surface where light catches the relief.",
+      "domains": {
+        "interior": {
+          "markers": "Plank floors, often oak, with a brushed raised-grain texture under a matte or oiled finish, hiding scuffs and catching light across the boards.",
+          "sources": [
+            {
+              "title": "Havwoods USA News | How to Choose the Right Textured Wood Flooring",
+              "publisher": "Havwoods",
+              "url": "https://www.havwoods.com/us/news/how-to-choose-the-right-textured-wood-flooring-for/",
+              "tier": 2
+            },
+            {
+              "title": "All About Texture - Urbanfloor Blog",
+              "publisher": "Urban Floor",
+              "url": "https://www.urbanfloor.com/blog/all-about-texture",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "variants": [
+        {
+          "name": "Light wire-brushed",
+          "description": "A light brushing that removes only a little soft grain, for a subtle texture.",
+          "markers": "Subtle, refined texture: grain gently emphasized, surface reads as nearly smooth.",
+          "sources": [
+            {
+              "title": "Choosing Textures for Your Wood Flooring - Real Wood Floors",
+              "publisher": "Real Wood Floors",
+              "url": "https://realwoodfloors.com/choosing-textures-for-your-wood-flooring/",
+              "tier": 2
+            },
+            {
+              "title": "Havwoods USA News | How to Choose the Right Textured Wood Flooring",
+              "publisher": "Havwoods",
+              "url": "https://www.havwoods.com/us/news/how-to-choose-the-right-textured-wood-flooring-for/",
+              "tier": 2
+            }
+          ]
+        },
+        {
+          "name": "Severe wire-brushed",
+          "description": "A heavy brushing that pulls out more soft grain for pronounced texture.",
+          "markers": "Pronounced raised grain and deeper grooves you can see and feel, giving a rugged plank surface.",
+          "sources": [
+            {
+              "title": "Choosing Textures for Your Wood Flooring - Real Wood Floors",
+              "publisher": "Real Wood Floors",
+              "url": "https://realwoodfloors.com/choosing-textures-for-your-wood-flooring/",
+              "tier": 2
+            }
+          ]
+        }
+      ],
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "rustic",
+            "sources": [
+              {
+                "title": "All About Texture - Urbanfloor Blog",
+                "publisher": "Urban Floor",
+                "url": "https://www.urbanfloor.com/blog/all-about-texture",
+                "tier": 2
+              }
+            ]
+          }
+        ],
+        "produces": [
+          {
+            "id": "weathered"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yakisugi",
+      "name": "Yakisugi",
+      "description": "Japanese technique of charring the surface of sugi (Japanese cedar) boards to form a protective carbon layer, often brushed and oiled afterwards; also called shou sugi ban.",
+      "tags": [
+        "japanese",
+        "dark",
+        "natural-materials",
+        "vernacular"
+      ],
+      "sources": [
+        {
+          "title": "Buyer’s Guide: Yakisugi, Sugi, and Hinoki Wood Products | Nakamoto Forestry",
+          "publisher": "Nakamoto Forestry",
+          "url": "https://nakamotoforestry.com/knowledge/buyers-guide/",
+          "tier": 2
+        },
+        {
+          "title": "Shou Sugi Ban or Yakisugi? | Popular Woodworking",
+          "publisher": "Popular Woodworking",
+          "url": "https://popularwoodworking.com/finishing/yakisugi",
+          "tier": 2
+        },
+        {
+          "title": "Yakisugi",
+          "publisher": "The Building Conservation Directory",
+          "url": "https://buildingconservation.com/articles/yakisugi-charred-timber/yakisugi-charred-timber.htm",
+          "tier": 2
+        },
+        {
+          "title": "Yakisugi - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yakisugi",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "wikidata": "Q11567648"
+      },
+      "markers": "Deep black charred cedar boards brushed to a smooth, silky low-sheen finish; a semi-opaque oil coat highlights faint grain lines and subtle burnt-grain shadows across the even char.",
+      "domains": {
+        "architecture": {
+          "media": [
+            "buildings"
+          ],
+          "markers": "Exterior siding of long charred cedar boards, shiplap or square edge, wrapping walls in a continuous dark textured skin.",
+          "sources": [
+            {
+              "title": "Buyer’s Guide: Yakisugi, Sugi, and Hinoki Wood Products | Nakamoto Forestry",
+              "publisher": "Nakamoto Forestry",
+              "url": "https://nakamotoforestry.com/knowledge/buyers-guide/",
+              "tier": 2
+            },
+            {
+              "title": "Yakisugi - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Yakisugi",
+              "tier": 3
+            },
+            {
+              "title": "Shou Sugi Ban or Yakisugi? | Popular Woodworking",
+              "publisher": "Popular Woodworking",
+              "url": "https://popularwoodworking.com/finishing/yakisugi",
+              "tier": 2
+            },
+            {
+              "title": "Yakisugi",
+              "publisher": "The Building Conservation Directory",
+              "url": "https://buildingconservation.com/articles/yakisugi-charred-timber/yakisugi-charred-timber.htm",
+              "tier": 2
+            }
+          ]
+        },
+        "interior": {
+          "markers": "Interior wall paneling of charred cedar boards with a smooth, silky dark face, sealed under a polyurethane, alkyd oil or acrylic coat.",
+          "sources": [
+            {
+              "title": "Buyer’s Guide: Yakisugi, Sugi, and Hinoki Wood Products | Nakamoto Forestry",
+              "publisher": "Nakamoto Forestry",
+              "url": "https://nakamotoforestry.com/knowledge/buyers-guide/",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "variants": [
+        {
+          "name": "Suyaki",
+          "description": "Charred boards left unbrushed, keeping the full soot layer.",
+          "markers": "Thick, dull black soot layer left unbrushed, covering the board face in a heavy layer of charcoal.",
+          "sources": [
+            {
+              "title": "Buyer’s Guide: Yakisugi, Sugi, and Hinoki Wood Products | Nakamoto Forestry",
+              "publisher": "Nakamoto Forestry",
+              "url": "https://nakamotoforestry.com/knowledge/buyers-guide/",
+              "tier": 2
+            },
+            {
+              "title": "Yakisugi",
+              "publisher": "The Building Conservation Directory",
+              "url": "https://buildingconservation.com/articles/yakisugi-charred-timber/yakisugi-charred-timber.htm",
+              "tier": 2
+            }
+          ]
+        },
+        {
+          "name": "Pika-Pika",
+          "description": "Charred boards brushed twice to remove most loose soot and expose a textured, striped grain.",
+          "markers": "Textured surface of striped grain patterns: dark charred stripes alternating with lighter wood where most of the loose soot has been brushed away.",
+          "sources": [
+            {
+              "title": "Buyer’s Guide: Yakisugi, Sugi, and Hinoki Wood Products | Nakamoto Forestry",
+              "publisher": "Nakamoto Forestry",
+              "url": "https://nakamotoforestry.com/knowledge/buyers-guide/",
+              "tier": 2
+            }
+          ]
+        },
+        {
+          "name": "Gendai",
+          "description": "Charred boards brushed once to remove the heavy soot, leaving a smooth finish; supplied unoiled or with oil or other coatings.",
+          "markers": "Smooth, silky, deep black surface with the heavy soot removed.",
+          "sources": [
+            {
+              "title": "Buyer’s Guide: Yakisugi, Sugi, and Hinoki Wood Products | Nakamoto Forestry",
+              "publisher": "Nakamoto Forestry",
+              "url": "https://nakamotoforestry.com/knowledge/buyers-guide/",
+              "tier": 2
+            }
+          ]
+        }
+      ],
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "japanese",
+            "sources": [
+              {
+                "title": "Yakisugi - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Yakisugi",
+                "tier": 3
+              },
+              {
+                "title": "Shou Sugi Ban or Yakisugi? | Popular Woodworking",
+                "publisher": "Popular Woodworking",
+                "url": "https://popularwoodworking.com/finishing/yakisugi",
+                "tier": 2
+              }
+            ]
+          },
+          {
+            "id": "minka",
+            "sources": [
+              {
+                "title": "Shou Sugi Ban or Yakisugi? | Popular Woodworking",
+                "publisher": "Popular Woodworking",
+                "url": "https://popularwoodworking.com/finishing/yakisugi",
+                "tier": 2
+              },
+              {
+                "title": "Yakisugi - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Yakisugi",
+                "tier": 3
+              }
+            ]
+          }
+        ],
+        "produces": [
+          {
+            "id": "charred"
+          }
+        ]
+      }
+    }
+  ],
+  "effects": [
+    {
+      "id": "antiqued",
+      "name": "Antiqued",
+      "description": "Finish made to look old, usually by sanding paint through at wear points and wiping on a tinted glaze that stays in recesses.",
+      "tags": [
+        "painted-finish",
+        "traditional"
+      ],
+      "sources": [
+        {
+          "title": "Creating An Antiqued, Aged Look for Pieces in Your Home - This Old House Play Play",
+          "publisher": "This Old House",
+          "url": "https://www.thisoldhouse.com/painting/creating-an-antiqued-aged-look",
+          "tier": 2
+        },
+        {
+          "title": "Faux Finishing Your Woodworking and Furniture Projects | General Finishes",
+          "publisher": "General Finishes",
+          "url": "https://generalfinishes.com/node/1888",
+          "tier": 2
+        }
+      ],
+      "markers": "Worn flat paint with darker glaze settled in corners, mouldings and recesses, lighter wiped high spots, and edges sanded through to undercoat or bare wood.",
+      "domains": {
+        "furniture": {
+          "media": [
+            "storage"
+          ],
+          "markers": "Cabinets and case pieces sanded through at door edges and around handles, with brown or ochre glaze in panel recesses.",
+          "sources": [
+            {
+              "title": "Faux Finishing Your Woodworking and Furniture Projects | General Finishes",
+              "publisher": "General Finishes",
+              "url": "https://generalfinishes.com/node/1888",
+              "tier": 2
+            }
+          ]
+        },
+        "interior": {
+          "markers": "Beams and woodwork with timeworn painted and glazed surfaces.",
+          "sources": [
+            {
+              "title": "Creating An Antiqued, Aged Look for Pieces in Your Home - This Old House Play Play",
+              "publisher": "This Old House",
+              "url": "https://www.thisoldhouse.com/painting/creating-an-antiqued-aged-look",
+              "tier": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "charred",
+      "name": "Charred",
+      "description": "Wood surface burnt to a layer of black carbon, left as a heavy char or brushed back to bring out the grain; ranges from lightly toasted to deep black.",
+      "tags": [
+        "dark",
+        "natural-materials",
+        "rustic",
+        "japanese"
+      ],
+      "sources": [
+        {
+          "title": "Charred wood – Types and techniques – Carpentier",
+          "publisher": "Carpentier",
+          "url": "https://carpentier.be/en/wood-finishes/charred-wood",
+          "tier": 2
+        },
+        {
+          "title": "Urban Rustic: The Cedar Siding Is Here — Let’s Burn It - GreenBuildingAdvisor GBA Logo horizontal GBA Logo Facebook LinkedIn Email Pinterest Twitter X Instagram YouTube Icon Navigation Search Icon Mai",
+          "publisher": "GreenBuildingAdvisor",
+          "url": "https://greenbuildingadvisor.com/article/urban-rustic-the-cedar-siding-is-here-lets-burn-it",
+          "tier": 2
+        },
+        {
+          "title": "The heat is on: charring can be a cool finish | Woodshop News Magazine",
+          "publisher": "Woodshop News",
+          "url": "https://www.woodshopnews.com/columns-blogs/the-heat-is-on-charring-can-be-a-cool-finish",
+          "tier": 2
+        }
+      ],
+      "markers": "Deep matte black char with pronounced raised grain; heavy burns crack into an alligator-skin texture, brushed faces read smoother black-brown; unoiled char takes on silvery tones at some light angles.",
+      "domains": {
+        "architecture": {
+          "media": [
+            "buildings"
+          ],
+          "markers": "Charred timber cladding, gates and fences: deep black boards with visible grain relief and a textured, weathered face.",
+          "sources": [
+            {
+              "title": "Charred wood – Types and techniques – Carpentier",
+              "publisher": "Carpentier",
+              "url": "https://carpentier.be/en/wood-finishes/charred-wood",
+              "tier": 2
+            },
+            {
+              "title": "Urban Rustic: The Cedar Siding Is Here — Let’s Burn It - GreenBuildingAdvisor GBA Logo horizontal GBA Logo Facebook LinkedIn Email Pinterest Twitter X Instagram YouTube Icon Navigation Search Icon Mai",
+              "publisher": "GreenBuildingAdvisor",
+              "url": "https://greenbuildingadvisor.com/article/urban-rustic-the-cedar-siding-is-here-lets-burn-it",
+              "tier": 2
+            }
+          ]
+        },
+        "interior": {
+          "markers": "Black charred wall panelling and accent surfaces with strong grain texture.",
+          "sources": [
+            {
+              "title": "Charred wood – Types and techniques – Carpentier",
+              "publisher": "Carpentier",
+              "url": "https://carpentier.be/en/wood-finishes/charred-wood",
+              "tier": 2
+            }
+          ]
+        },
+        "furniture": {
+          "media": [
+            "tables",
+            "seating"
+          ],
+          "markers": "Tables, stools and benches from subtly toasted amber to deep black char, sometimes with chunks of char scraped away.",
+          "sources": [
+            {
+              "title": "The heat is on: charring can be a cool finish | Woodshop News Magazine",
+              "publisher": "Woodshop News",
+              "url": "https://www.woodshopnews.com/columns-blogs/the-heat-is-on-charring-can-be-a-cool-finish",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "variants": [
+        {
+          "name": "Brushed",
+          "description": "Char brushed back after burning, removing the softer burnt wood so the harder grain stands in relief.",
+          "markers": "Smoother, lighter black-brown surface with raised grain ridges; uniformly black once oiled.",
+          "sources": [
+            {
+              "title": "Charred wood – Types and techniques – Carpentier",
+              "publisher": "Carpentier",
+              "url": "https://carpentier.be/en/wood-finishes/charred-wood",
+              "tier": 2
+            },
+            {
+              "title": "The heat is on: charring can be a cool finish | Woodshop News Magazine",
+              "publisher": "Woodshop News",
+              "url": "https://www.woodshopnews.com/columns-blogs/the-heat-is-on-charring-can-be-a-cool-finish",
+              "tier": 2
+            },
+            {
+              "title": "Urban Rustic: The Cedar Siding Is Here — Let’s Burn It - GreenBuildingAdvisor GBA Logo horizontal GBA Logo Facebook LinkedIn Email Pinterest Twitter X Instagram YouTube Icon Navigation Search Icon Mai",
+              "publisher": "GreenBuildingAdvisor",
+              "url": "https://greenbuildingadvisor.com/article/urban-rustic-the-cedar-siding-is-here-lets-burn-it",
+              "tier": 2
+            }
+          ]
+        }
+      ],
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "japanese",
+            "sources": [
+              {
+                "title": "Charred wood – Types and techniques – Carpentier",
+                "publisher": "Carpentier",
+                "url": "https://carpentier.be/en/wood-finishes/charred-wood",
+                "tier": 2
+              },
+              {
+                "title": "The heat is on: charring can be a cool finish | Woodshop News Magazine",
+                "publisher": "Woodshop News",
+                "url": "https://www.woodshopnews.com/columns-blogs/the-heat-is-on-charring-can-be-a-cool-finish",
+                "tier": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "crackle",
+      "name": "Crackle",
+      "description": "Network of fine cracks in paint, varnish, lacquer or ceramic glaze, formed by age and shrinkage or produced deliberately as a decorative effect.",
+      "tags": [
+        "historical",
+        "painted-finish"
+      ],
+      "sources": [
+        {
+          "title": "Crackle (Getty AAT 300228345)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300228345",
+          "tier": 1
+        },
+        {
+          "title": "Craquelure | Glossary | National Gallery, London",
+          "publisher": "National Gallery, London",
+          "url": "https://www.nationalgallery.org.uk/paintings/glossary/craquelure",
+          "tier": 1
+        },
+        {
+          "title": "Crackle - Conservation Wiki",
+          "publisher": "American Institute for Conservation (Conservation Wiki)",
+          "url": "https://www.conservation-wiki.com/wiki/Crackle",
+          "tier": 2
+        },
+        {
+          "title": "Craquelure - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Craquelure",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "aat": "300228345"
+      },
+      "markers": "Fine web of hairline cracks breaking the surface into small irregular islands; cracks read darker where dirt fills them, especially in light paint.",
+      "domains": {
+        "fine-art": {
+          "media": [
+            "painting"
+          ],
+          "markers": "Crack network across paint and varnish: small rectangular blocks on Italian panels, larger curving, irregular cracks on French canvases.",
+          "sources": [
+            {
+              "title": "Craquelure - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Craquelure",
+              "tier": 3
+            },
+            {
+              "title": "Craquelure | Glossary | National Gallery, London",
+              "publisher": "National Gallery, London",
+              "url": "https://www.nationalgallery.org.uk/paintings/glossary/craquelure",
+              "tier": 1
+            }
+          ]
+        },
+        "decorative-arts": {
+          "media": [
+            "ceramics"
+          ],
+          "markers": "Deliberate crackle glaze with a dense crack network across the glaze, as on Chinese Ge ware with its double crackle.",
+          "sources": [
+            {
+              "title": "Craquelure - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Craquelure",
+              "tier": 3
+            },
+            {
+              "title": "Crackle - Conservation Wiki",
+              "publisher": "American Institute for Conservation (Conservation Wiki)",
+              "url": "https://www.conservation-wiki.com/wiki/Crackle",
+              "tier": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "distressed",
+      "name": "Distressed",
+      "description": "Finish deliberately sanded, dented, scraped or rubbed through so a new or refinished object looks aged and worn.",
+      "tags": [
+        "rustic",
+        "painted-finish",
+        "handcrafted"
+      ],
+      "sources": [
+        {
+          "title": "How to Distress Furniture: Step-by-Step Guide | RMP Finishes",
+          "publisher": "RMP Finishes",
+          "url": "https://www.rmpfinishes.com/blog/tutorials-videos/how-to-distress-furniture-a-comprehensive-step-by-step-guide/",
+          "tier": 2
+        },
+        {
+          "title": "Distressing - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Distressing",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "wikidata": "Q135060782"
+      },
+      "markers": "Paint worn through at edges, corners and touch points to bare wood or an underlayer; scattered dents, divots and wire-brushed grooves; uneven, layered colour.",
+      "domains": {
+        "furniture": {
+          "media": [
+            "tables",
+            "storage"
+          ],
+          "markers": "Painted tables, sideboards and cabinets sanded back at edges and corners, with dents and grooves and earlier paint layers showing.",
+          "sources": [
+            {
+              "title": "How to Distress Furniture: Step-by-Step Guide | RMP Finishes",
+              "publisher": "RMP Finishes",
+              "url": "https://www.rmpfinishes.com/blog/tutorials-videos/how-to-distress-furniture-a-comprehensive-step-by-step-guide/",
+              "tier": 2
+            },
+            {
+              "title": "Distressing - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Distressing",
+              "tier": 3
+            }
+          ]
+        }
+      },
+      "variants": [
+        {
+          "name": "Dry-brushed",
+          "description": "Distressed look made by dragging a nearly dry brush of paint over a painted surface.",
+          "markers": "Thin, streaky brushed paint over a base coat, giving a lightly weathered look.",
+          "sources": [
+            {
+              "title": "How to Distress Furniture: Step-by-Step Guide | RMP Finishes",
+              "publisher": "RMP Finishes",
+              "url": "https://www.rmpfinishes.com/blog/tutorials-videos/how-to-distress-furniture-a-comprehensive-step-by-step-guide/",
+              "tier": 2
+            }
+          ]
+        }
+      ],
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "shabby-chic",
+            "sources": [
+              {
+                "title": "Distressing - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Distressing",
+                "tier": 3
+              },
+              {
+                "title": "How to Distress Furniture: Step-by-Step Guide | RMP Finishes",
+                "publisher": "RMP Finishes",
+                "url": "https://www.rmpfinishes.com/blog/tutorials-videos/how-to-distress-furniture-a-comprehensive-step-by-step-guide/",
+                "tier": 2
+              }
+            ]
+          },
+          {
+            "id": "farmhouse",
+            "sources": [
+              {
+                "title": "How to Distress Furniture: Step-by-Step Guide | RMP Finishes",
+                "publisher": "RMP Finishes",
+                "url": "https://www.rmpfinishes.com/blog/tutorials-videos/how-to-distress-furniture-a-comprehensive-step-by-step-guide/",
+                "tier": 2
+              }
+            ]
+          },
+          {
+            "id": "rustic",
+            "sources": [
+              {
+                "title": "How to Distress Furniture: Step-by-Step Guide | RMP Finishes",
+                "publisher": "RMP Finishes",
+                "url": "https://www.rmpfinishes.com/blog/tutorials-videos/how-to-distress-furniture-a-comprehensive-step-by-step-guide/",
+                "tier": 2
+              },
+              {
+                "title": "Distressing - Wikipedia",
+                "publisher": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Distressing",
+                "tier": 3
+              }
+            ]
+          },
+          {
+            "id": "cottage",
+            "sources": [
+              {
+                "title": "How to Distress Furniture: Step-by-Step Guide | RMP Finishes",
+                "publisher": "RMP Finishes",
+                "url": "https://www.rmpfinishes.com/blog/tutorials-videos/how-to-distress-furniture-a-comprehensive-step-by-step-guide/",
+                "tier": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "honed",
+      "name": "Honed",
+      "description": "Stone ground to a smooth, flat surface and stopped before it turns glossy, leaving a matte or satin finish.",
+      "tags": [
+        "natural-materials",
+        "minimal"
+      ],
+      "sources": [
+        {
+          "title": "Stone Selection 101: Polished vs. Honed Stone Finishes - Coldspring",
+          "publisher": "Coldspring",
+          "url": "https://coldspringusa.com/stone-selection-101-polished-vs-honed-stone-finishes/",
+          "tier": 2
+        },
+        {
+          "title": "The Texture of Luxury: Honed vs Polished Marble Explained",
+          "publisher": "Marble Systems",
+          "url": "https://www.marblesystems.com/the-texture-of-luxury-honed-vs-polished-marble-explained/",
+          "tier": 2
+        },
+        {
+          "title": "The Ultimate Guide to Understanding Honed vs Polished Marble Amazon American Express Apple Pay Diners Club Discover Google Pay JCB Maestro Mastercard PayPal Shop Pay Union Pay USDC Visa",
+          "publisher": "Stone Tile Depot",
+          "url": "https://stonetiledepot.com/blogs/news/the-ultimate-guide-to-understanding-honed-vs-polished-marble",
+          "tier": 2
+        }
+      ],
+      "markers": "Smooth, flat matte to satin stone face with little or no reflection; soft, velvety look; colour lighter and quieter than the same stone polished.",
+      "domains": {
+        "interior": {
+          "markers": "Matte stone floors, stairs, shower walls and countertops with a soft, low-sheen surface.",
+          "sources": [
+            {
+              "title": "Stone Selection 101: Polished vs. Honed Stone Finishes - Coldspring",
+              "publisher": "Coldspring",
+              "url": "https://coldspringusa.com/stone-selection-101-polished-vs-honed-stone-finishes/",
+              "tier": 2
+            },
+            {
+              "title": "The Texture of Luxury: Honed vs Polished Marble Explained",
+              "publisher": "Marble Systems",
+              "url": "https://www.marblesystems.com/the-texture-of-luxury-honed-vs-polished-marble-explained/",
+              "tier": 2
+            },
+            {
+              "title": "The Ultimate Guide to Understanding Honed vs Polished Marble Amazon American Express Apple Pay Diners Club Discover Google Pay JCB Maestro Mastercard PayPal Shop Pay Union Pay USDC Visa",
+              "publisher": "Stone Tile Depot",
+              "url": "https://stonetiledepot.com/blogs/news/the-ultimate-guide-to-understanding-honed-vs-polished-marble",
+              "tier": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "patina",
+      "name": "Patina",
+      "description": "Thin surface film or mellowed change in colour and texture that age, exposure, wear and handling give metal, stone, wood and leather.",
+      "tags": [
+        "earthy",
+        "metal",
+        "natural-materials"
+      ],
+      "sources": [
+        {
+          "title": "Patina (Getty AAT 300065245)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300065245",
+          "tier": 1
+        },
+        {
+          "title": "Should you remove patina from antiques? | Homes and Antiques",
+          "publisher": "Homes & Antiques",
+          "url": "https://www.homesandantiques.com/antiques/drew-pritchard-why-patina-is-king",
+          "tier": 2
+        },
+        {
+          "title": "Patina - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Patina",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "aat": "300065245",
+        "wikidata": "Q428352"
+      },
+      "markers": "Softened, uneven colour and gentle sheen: green to brown films on copper alloys, darkened stone, a worn glow on handled wood and leather.",
+      "domains": {
+        "furniture": {
+          "media": [
+            "storage",
+            "seating"
+          ],
+          "markers": "Antique chests and leather chairs with worn, mellowed surfaces at touch points instead of a high polish.",
+          "sources": [
+            {
+              "title": "Should you remove patina from antiques? | Homes and Antiques",
+              "publisher": "Homes & Antiques",
+              "url": "https://www.homesandantiques.com/antiques/drew-pritchard-why-patina-is-king",
+              "tier": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "polished",
+      "name": "Polished",
+      "description": "Surface abraded with progressively finer grits until smooth and shiny, giving strong specular reflection.",
+      "tags": [
+        "formal",
+        "glamorous"
+      ],
+      "sources": [
+        {
+          "title": "Stone Selection 101: Polished vs. Honed Stone Finishes - Coldspring",
+          "publisher": "Coldspring",
+          "url": "https://coldspringusa.com/stone-selection-101-polished-vs-honed-stone-finishes/",
+          "tier": 2
+        },
+        {
+          "title": "The Texture of Luxury: Honed vs Polished Marble Explained",
+          "publisher": "Marble Systems",
+          "url": "https://www.marblesystems.com/the-texture-of-luxury-honed-vs-polished-marble-explained/",
+          "tier": 2
+        },
+        {
+          "title": "Polishing - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Polishing",
+          "tier": 3
+        }
+      ],
+      "markers": "Glossy, mirror-like face reflecting light; on stone the full colour depth, veining and crystal structure appear vivid and saturated.",
+      "domains": {
+        "interior": {
+          "markers": "High-gloss marble floors in entries, fireplace surrounds and feature walls that reflect light and brighten the room.",
+          "sources": [
+            {
+              "title": "The Texture of Luxury: Honed vs Polished Marble Explained",
+              "publisher": "Marble Systems",
+              "url": "https://www.marblesystems.com/the-texture-of-luxury-honed-vs-polished-marble-explained/",
+              "tier": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rusted",
+      "name": "Rusted",
+      "description": "Iron or steel covered with reddish-brown iron oxide, from flaky, friable surface rust to the dense, adherent patina of weathering steel.",
+      "tags": [
+        "earthy",
+        "metal",
+        "industrial"
+      ],
+      "sources": [
+        {
+          "title": "Rusted (Getty AAT 300213355)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300213355",
+          "tier": 1
+        },
+        {
+          "title": "Weathering steel – Guide to corrosion-resistant steels - SSAB",
+          "publisher": "SSAB",
+          "url": "https://www.ssab.com/en/brands-and-products/steel-categories/weathering-steel",
+          "tier": 2
+        },
+        {
+          "title": "Specifying Cor-ten for External Architectural Use | Marshalls",
+          "publisher": "Marshalls",
+          "url": "https://www.marshalls.co.uk/landscaping/blog/specifying-cor-ten-for-external-architectural-use",
+          "tier": 2
+        },
+        {
+          "title": "Rust - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rust",
+          "tier": 3
+        }
+      ],
+      "markers": "Orange to reddish-brown and dark brown oxide, matte and textured; loose rust porous and flaking, weathering steel a warm dark brown.",
+      "domains": {
+        "architecture": {
+          "media": [
+            "buildings",
+            "urban",
+            "landscape"
+          ],
+          "markers": "Weathering steel cladding, planters, seating and lighting columns in a matt rust-brown, sometimes with rust stains on adjacent paving.",
+          "sources": [
+            {
+              "title": "Specifying Cor-ten for External Architectural Use | Marshalls",
+              "publisher": "Marshalls",
+              "url": "https://www.marshalls.co.uk/landscaping/blog/specifying-cor-ten-for-external-architectural-use",
+              "tier": 2
+            },
+            {
+              "title": "Weathering steel – Guide to corrosion-resistant steels - SSAB",
+              "publisher": "SSAB",
+              "url": "https://www.ssab.com/en/brands-and-products/steel-categories/weathering-steel",
+              "tier": 2
+            }
+          ]
+        },
+        "fine-art": {
+          "media": [
+            "sculpture"
+          ],
+          "markers": "Weathering steel sculpture in a matt, rust-like brown finish.",
+          "sources": [
+            {
+              "title": "Specifying Cor-ten for External Architectural Use | Marshalls",
+              "publisher": "Marshalls",
+              "url": "https://www.marshalls.co.uk/landscaping/blog/specifying-cor-ten-for-external-architectural-use",
+              "tier": 2
+            },
+            {
+              "title": "Weathering steel – Guide to corrosion-resistant steels - SSAB",
+              "publisher": "SSAB",
+              "url": "https://www.ssab.com/en/brands-and-products/steel-categories/weathering-steel",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "variants": [
+        {
+          "name": "Weathering steel",
+          "description": "Steel alloyed to form a dense, adherent rust patina that seals the surface and needs no paint.",
+          "markers": "Fresh orange-brown that darkens to light or dark brown; flat, non-reflective, textured matt surface.",
+          "sources": [
+            {
+              "title": "Weathering steel – Guide to corrosion-resistant steels - SSAB",
+              "publisher": "SSAB",
+              "url": "https://www.ssab.com/en/brands-and-products/steel-categories/weathering-steel",
+              "tier": 2
+            },
+            {
+              "title": "Specifying Cor-ten for External Architectural Use | Marshalls",
+              "publisher": "Marshalls",
+              "url": "https://www.marshalls.co.uk/landscaping/blog/specifying-cor-ten-for-external-architectural-use",
+              "tier": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sun-bleached",
+      "name": "Sun-bleached",
+      "description": "Colour faded and lightened by long sun exposure, turning wood a weathered grey; imitated on new wood with grey or whitewash stains.",
+      "tags": [
+        "light",
+        "neutral",
+        "coastal"
+      ],
+      "sources": [
+        {
+          "title": "How to Give Wood A Sun-Bleached Tone - This Old House Play Play",
+          "publisher": "This Old House",
+          "url": "https://www.thisoldhouse.com/woodworking/how-to-give-wood-a-sun-bleached-tone",
+          "tier": 2
+        }
+      ],
+      "markers": "Pale, washed-out grey driftwood tone with grain showing through a soft, light finish, palest at worn edges and corners.",
+      "domains": {
+        "furniture": {
+          "markers": "Wood furniture in a light grey or whitewashed driftwood tone, softened at edges and corners.",
+          "sources": [
+            {
+              "title": "How to Give Wood A Sun-Bleached Tone - This Old House Play Play",
+              "publisher": "This Old House",
+              "url": "https://www.thisoldhouse.com/woodworking/how-to-give-wood-a-sun-bleached-tone",
+              "tier": 2
+            }
+          ]
+        }
+      },
+      "relations": {
+        "associated_styles": [
+          {
+            "id": "coastal",
+            "sources": [
+              {
+                "title": "How to Give Wood A Sun-Bleached Tone - This Old House Play Play",
+                "publisher": "This Old House",
+                "url": "https://www.thisoldhouse.com/woodworking/how-to-give-wood-a-sun-bleached-tone",
+                "tier": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "verdigris",
+      "name": "Verdigris",
+      "description": "Green to bluish-green copper salt patina that forms on copper, brass and bronze, and a historic green pigment made from it.",
+      "tags": [
+        "metal",
+        "historical"
+      ],
+      "sources": [
+        {
+          "title": "Verdigris (Getty AAT 300311415)",
+          "publisher": "Getty Art & Architecture Thesaurus",
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300311415",
+          "tier": 1
+        },
+        {
+          "title": "Why the natural patina that forms on copper, brass, and bronze is the colour of timelessness | Country Life logo logo",
+          "publisher": "Country Life",
+          "url": "https://www.countrylife.co.uk/gardens-interiors/interiors/why-the-natural-patina-that-forms-on-copper-brass-and-bronze-is-the-colour-of-timelessness",
+          "tier": 2
+        },
+        {
+          "title": "Verdigris - Wikipedia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Verdigris",
+          "tier": 3
+        }
+      ],
+      "ids": {
+        "aat": "300311415",
+        "wikidata": "Q2351119"
+      },
+      "markers": "Turquoise, green and blue-green surface over copper, brass or bronze; the bright bluish green of aged domes, statues and lanterns.",
+      "domains": {
+        "architecture": {
+          "media": [
+            "buildings"
+          ],
+          "markers": "Copper and bronze domes oxidised to a green-blue ranging from turquoise to green.",
+          "sources": [
+            {
+              "title": "Why the natural patina that forms on copper, brass, and bronze is the colour of timelessness | Country Life logo logo",
+              "publisher": "Country Life",
+              "url": "https://www.countrylife.co.uk/gardens-interiors/interiors/why-the-natural-patina-that-forms-on-copper-brass-and-bronze-is-the-colour-of-timelessness",
+              "tier": 2
+            }
+          ]
+        },
+        "lighting": {
+          "media": [
+            "exterior"
+          ],
+          "markers": "Lanterns with aged blue-green metal bodies.",
+          "sources": [
+            {
+              "title": "Why the natural patina that forms on copper, brass, and bronze is the colour of timelessness | Country Life logo logo",
+              "publisher": "Country Life",
+              "url": "https://www.countrylife.co.uk/gardens-interiors/interiors/why-the-natural-patina-that-forms-on-copper-brass-and-bronze-is-the-colour-of-timelessness",
+              "tier": 2
+            }
+          ]
+        },
+        "fine-art": {
+          "media": [
+            "sculpture",
+            "painting"
+          ],
+          "markers": "Statues turned green-blue by oxidised copper; in paintings, transparent, saturated greens in glazes that can darken to brown with age.",
+          "sources": [
+            {
+              "title": "Why the natural patina that forms on copper, brass, and bronze is the colour of timelessness | Country Life logo logo",
+              "publisher": "Country Life",
+              "url": "https://www.countrylife.co.uk/gardens-interiors/interiors/why-the-natural-patina-that-forms-on-copper-brass-and-bronze-is-the-colour-of-timelessness",
+              "tier": 2
+            },
+            {
+              "title": "Verdigris - Wikipedia",
+              "publisher": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Verdigris",
+              "tier": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "weathered",
+      "name": "Weathered",
+      "description": "Surface worn by sun, rain, wind and abrasion; on bare wood, sunlight degrades lignin at the surface and rain rinses it away, leaving a grey face.",
+      "tags": [
+        "neutral",
+        "natural-materials"
+      ],
+      "sources": [
+        {
+          "title": "Whether Wood Weathers - GreenBuildingAdvisor GBA Logo horizontal GBA Logo Facebook LinkedIn Email Pinterest Twitter X Instagram YouTube Icon Navigation Search Icon Main Search Icon Video Play Icon Plu",
+          "publisher": "GreenBuildingAdvisor",
+          "url": "https://greenbuildingadvisor.com/article/whether-wood-weathers",
+          "tier": 2
+        },
+        {
+          "title": "Which Wood Siding Species Develop a Natural Silver-Gray Patina? A Weathering Science Guide — J. Gibson McIlvain",
+          "publisher": "J. Gibson McIlvain",
+          "url": "https://blog.mcilvain.com/wood-siding-silver-gray-patina-species.html",
+          "tier": 2
+        }
+      ],
+      "markers": "Silver-grey to driftwood-grey bare wood of bleached surface fibres; grain slightly ridged where softer earlywood wears faster; patchy or streaked on shaded faces.",
+      "domains": {
+        "architecture": {
+          "media": [
+            "buildings"
+          ],
+          "markers": "Unfinished wood siding greyed to an even silver on sunny elevations, browner and patchier on shaded ones.",
+          "sources": [
+            {
+              "title": "Which Wood Siding Species Develop a Natural Silver-Gray Patina? A Weathering Science Guide — J. Gibson McIlvain",
+              "publisher": "J. Gibson McIlvain",
+              "url": "https://blog.mcilvain.com/wood-siding-silver-gray-patina-species.html",
+              "tier": 2
+            }
+          ]
+        }
+      }
+    }
+  ],
   "materials": [],
   "design_elements": [],
   "objects": [],
