@@ -1,8 +1,8 @@
 # Aestheticum
 
-A canonical, sourced reference of visual aesthetics and the domains in which they appear.
+A canonical, sourced, faceted vocabulary of visual aesthetics and the domains in which they appear.
 
-Each aesthetic (Art Deco, Bauhaus, Wabi-Sabi, Victorian) is a single entry with a name, a description, tags and citations. Each entry records the domains in which the aesthetic appears (architecture, furniture, fashion, transportation and others) and the visual markers that identify it in each domain.
+Each aesthetic (Art Deco, Bauhaus, Wabi-Sabi, Victorian) is a single entry with a name, a description, tags and citations. Each entry records the domains in which the aesthetic appears (architecture, furniture, fashion, transportation and others) and the visual markers that identify it in each domain. Techniques (such as yakisugi or tadelakt) and effects (such as patina or verdigris) have their own facets, and their entries link to the styles they belong to.
 
 ## Motivation
 
@@ -10,19 +10,23 @@ Style names are used loosely. One retailer's "Boho" is another's "Bohemian"; a m
 
 ## Data model
 
-The reference has four parts.
-
 | Concept | What it is | Example |
 |---|---|---|
-| **Aesthetic** | A canonical style, period or movement. One entry per aesthetic. An optional `parent` gives the hierarchy. | `streamline-moderne` → parent `art-deco` |
+| **Facet** | A top-level class of concept, anchored on a Getty AAT facet or hierarchy. Each facet is one section of the data file. | `styles`, `techniques`, `effects` |
+| **Entry** | One concept in one facet, with an `id` unique across all facets. | `art-deco` (styles), `yakisugi` (techniques) |
+| **Aesthetic** | A style entry: a canonical style, period, movement or culture. One entry per aesthetic. An optional `parent` gives the hierarchy. | `streamline-moderne` → parent `art-deco` |
+| **Relation** | A typed link from an entry to entries of another facet, stored once on the owning entry. | `yakisugi` `associated_styles` → `minka` |
+| **Predicate** | A relation type of one owning facet, from `vocab.relations`: its target facet and the label of the reverse direction. | `associated_styles` (techniques → styles), inverse `techniques` |
 | **Domain** | A medium or discipline in which an aesthetic appears. From a fixed list. | `furniture`, `transportation` |
 | **Media** | A finer division of a domain. From a fixed list for each domain. | `transportation` → `automotive`, `aviation` |
-| **Markers** | The visual features of one aesthetic in one domain. | Art Deco × transportation: "streamlined bodies, chrome speed lines" |
-| **Variant** | A named nuance inside an aesthetic: a sub-movement, group or regional form whose look the aesthetic already covers. Not indexed as an entry. | `retro-futurism` → Vaporwave, Cassette Futurism |
+| **Markers** | The visual features of an entry: of a style in one domain, or of a technique or effect across domains and in each domain. | Art Deco × transportation: "streamlined bodies, chrome speed lines" |
+| **Variant** | A named nuance inside an entry: a sub-movement, group or regional form of a style, or a grade or finish of a technique. Not indexed as an entry. | `retro-futurism` → Vaporwave, Cassette Futurism |
 
 A `parent` links two indexed entries; a variant lives inside one entry and has no `id`. Queries return the entry; applications can use a variant's markers for more specific output.
 
 Aesthetic and domain are the two axes of classification. The markers are the observable expression of an aesthetic in a domain. An aesthetic has one entry. Its domains are keys inside that entry, so the entry is never duplicated.
+
+Ids are unique across all facets. Techniques and effects use the same entry shape as styles, with their look across domains in `markers` and their links in `relations`.
 
 ### Focal-point rule
 
@@ -36,19 +40,45 @@ A subject belongs to the domain that is the focal point of the image. An Art Dec
 | `interior` | Interior | Interior spaces as composed wholes: layout, wall and floor finishes, furnishing and decoration. | — |
 | `furniture` | Furniture | Movable furnishings for sitting, lying, storage and work, seen as individual designed objects. | seating, tables, storage, beds |
 | `lighting` | Lighting | Light fixtures and the lighting of spaces, where light is the focal point. | indoor, exterior, landscape, public |
-| `decorative-arts` | Decorative Arts | Functional and ornamental objects of craft materials. | ceramics, glass, metalwork, textiles, wallcoverings, arms and armor, musical instruments |
+| `decorative-arts` | Decorative Arts | Functional and ornamental objects of craft materials. | ceramics, glass, metalwork, textiles, wallcoverings, arms-and-armor, musical-instruments |
 | `product` | Product | Mass-produced manufactured objects. | appliances, electronics, tools, toys, housewares |
 | `transportation` | Transportation | Vehicles as designed form. | automotive, motorcycles, aviation, rail, marine |
 | `fashion` | Fashion | Clothing and personal adornment as worn. | apparel, footwear, accessories, jewelry |
 | `visual-design` | Visual Design | Visual communication in print and on screen. | graphic, typography, illustration, digital, games |
 | `fine-art` | Fine Art | Autonomous artworks. | painting, drawing, printmaking, sculpture, photography, installation |
-| `film` | Film | The cinematic image and the designed worlds of screen and stage. | cinematography, animation, production design |
+| `film` | Film | The cinematic image and the designed worlds of screen and stage. | cinematography, animation, production-design |
 
 The domain list is anchored on the Getty Art & Architecture Thesaurus (AAT) Disciplines hierarchy ([300054134](http://vocab.getty.edu/page/aat/300054134)). It is cross-checked against the NCES Classification of Instructional Programs, the BLS Standard Occupational Classification, ISCO-08, the UNESCO Framework for Cultural Statistics, NAICS 5414, and the collection structures of the V&A, The Met, MoMA and Cooper Hewitt.
 
-The data file defines the domain vocabulary under `domains`. Each domain has a `name`, a `description`, an `aat` ID (the closest Getty AAT concept, or `null` when AAT has none) and its `media` list. Interior has no media.
+The data file defines the domain vocabulary under `vocab.domains`. Each domain has a `name`, a `description`, an `aat` ID (the closest Getty AAT concept, or `null` when AAT has none) and its `media` list. Interior has no media.
 
-## Aesthetic entry
+## Facets
+
+The facets are defined in `vocab.facets`. The schema holds the sections of `materials`, `design_elements`, `objects` and `agents` empty.
+
+| id | Facet | Getty AAT | Accepts entries |
+|---|---|---|---|
+| `styles` | Styles and Periods | [300264088](http://vocab.getty.edu/page/aat/300264088) | yes |
+| `techniques` | Processes and Techniques | [300053001](http://vocab.getty.edu/page/aat/300053001) | yes |
+| `effects` | Conditions and Effects | [300186269](http://vocab.getty.edu/page/aat/300186269) | yes |
+| `materials` | Materials | [300264091](http://vocab.getty.edu/page/aat/300264091) | no |
+| `design_elements` | Design Elements | [300123558](http://vocab.getty.edu/page/aat/300123558) | no |
+| `objects` | Objects | [300264092](http://vocab.getty.edu/page/aat/300264092) | no |
+| `agents` | Agents | [300264089](http://vocab.getty.edu/page/aat/300264089) | no |
+
+A **technique** is a process applied to a material or an object that sets its look. An **effect** is a physical condition of a surface, made on purpose or by time. Some terms name both a process and its result (charring, charred); each has its own entry, and the technique `produces` the effect. Ornament added on purpose is a design element, not an effect.
+
+## Relations
+
+`vocab.relations` defines the predicates of each owning facet: the facet of the targets and the label of the reverse direction. An entry stores a relation as a list of target ids, each with optional `sources` for the link. Consumers derive the reverse direction from the inverse label.
+
+| Owning facet | Predicate | Targets | Inverse |
+|---|---|---|---|
+| `techniques` | `associated_styles` | `styles` | `techniques` |
+| `techniques` | `produces` | `effects` | `produced_by` |
+| `effects` | `associated_styles` | `styles` | `effects` |
+
+## Style entry
 
 ```json
 {
@@ -88,7 +118,7 @@ The data file defines the domain vocabulary under `domains`. Each domain has a `
 
 ### Tags
 
-The tag vocabulary is defined in the data file under `tags`, in groups: era, character, form, palette, material, region and setting. Region tags cover Europe, the Americas (including Native North America and the Caribbean), Africa, the Middle East, Central Asia, the Himalaya, South, Southeast and East Asia, and Oceania. Tags describe the character of an aesthetic. Domains and media describe where it appears; they are never tags.
+The tag vocabulary is defined in the data file under `vocab.tags`, in groups: era, character, form, palette, material, region and setting. Region tags cover Europe, the Americas (including Native North America and the Caribbean), Africa, the Middle East, Central Asia, the Himalaya, South, Southeast and East Asia, and Oceania. Tags describe the character of an aesthetic. Domains and media describe where it appears; they are never tags.
 
 ### Sources
 
@@ -100,7 +130,7 @@ Every source has a tier.
 | 2 | Commercial or editorial | Architectural Digest, Dezeen, auction houses, retailers |
 | 3 | Open, contributor-edited | Wikipedia |
 
-Every entry, variant and domain expression with sources cites at least one tier 1 or tier 2 source:
+Every entry, variant, domain expression and relation target with sources cites at least one tier 1 or tier 2 source:
 
 | Sources | Status |
 |---|---|
@@ -114,7 +144,7 @@ Every URL resolves to the cited page.
 
 ## Identifiers and aliases
 
-`alias_sources` in the data file lists the reference systems that identifiers and aliases cite: Getty AAT, Wikidata, English Wikipedia, Houzz and Wayfair. Each has a `url` template with a `{ref}` placeholder and the character that replaces spaces in a `ref`, so every identifier and alias resolves to a page. For example `{"source": "enwiki", "ref": "Style Moderne"}` resolves to `https://en.wikipedia.org/wiki/Style_Moderne`.
+`vocab.alias_sources` in the data file lists the reference systems that identifiers and aliases cite: Getty AAT, Wikidata, English Wikipedia, Houzz and Wayfair. Each has a `url` template with a `{ref}` placeholder and the character that replaces spaces in a `ref`, so every identifier and alias resolves to a page. For example `{"source": "enwiki", "ref": "Style Moderne"}` resolves to `https://en.wikipedia.org/wiki/Style_Moderne`.
 
 **Identifiers.** An entry's Getty AAT ID is a cited AAT record whose English label is the entry's name. Its Wikidata ID is the item linked to that AAT record, else the unique item whose English label is the entry's name. A Wikidata item counts only when it is a style concept (a style, movement, period, culture or genre), not a person, place, people or organization.
 
@@ -128,9 +158,40 @@ Every URL resolves to the cited page.
 
 A small number of manual decisions correct identifiers or add marketplace labels. Each has a recorded reason.
 
+## Technique and effect entries
+
+A technique or an effect has the shared fields (`id`, `name`, `description`, `tags`, `sources`, and optional `ids`, `aliases`, `domains` and `variants`), plus `markers` (its look across domains, 200 characters or fewer) and optional `relations`. It has no `parent` and no `popularity`. An example technique entry, with its grades as variants:
+
+```json
+{
+  "id": "yakisugi",
+  "name": "Yakisugi",
+  "description": "Japanese technique of charring the surface of wood boards, traditionally sugi, then brushing and oiling them, for cladding and paneling.",
+  "tags": ["japanese", "vernacular", "dark"],
+  "sources": [
+    {"title": "Buyer's Guide: Yakisugi, Sugi, and Hinoki Wood Products", "publisher": "Nakamoto Forestry", "url": "https://nakamotoforestry.com/knowledge/buyers-guide/", "tier": 2},
+    {"title": "Yakisugi", "publisher": "Popular Woodworking", "url": "https://popularwoodworking.com/finishing/yakisugi", "tier": 2}
+  ],
+  "markers": "Charred, wire-brushed once and oiled: deep matte black-brown, silky low sheen, subtle burnt-grain shadows.",
+  "domains": {
+    "architecture": {"media": ["buildings"], "markers": "Vertical charred-board cladding on farmhouses and storehouses."},
+    "interior": {"markers": "Charred-board feature walls and ceilings in deep matte black."}
+  },
+  "relations": {
+    "associated_styles": [{"id": "japanese"}, {"id": "minka"}, {"id": "japandi"}, {"id": "wabi-sabi"}],
+    "produces": [{"id": "charred"}]
+  },
+  "variants": [
+    {"name": "Suyaki", "description": "Unbrushed grade.", "markers": "Unbrushed: thick soot layer, cracked alligator char.", "sources": [...]},
+    {"name": "Pika-Pika", "description": "Grade brushed twice.", "markers": "Brushed twice: burnt latewood ridges, lighter earlywood between them.", "sources": [...]},
+    {"name": "Gendai", "description": "Grade brushed once, unoiled.", "markers": "Brushed once, unoiled: smooth, silky, deep black surface.", "sources": [...]}
+  ]
+}
+```
+
 ## Popularity
 
-Each entry has two values in `popularity`. Both are relative values within this dataset, in (0, 1).
+Each style has two values in `popularity`. Both are relative values within this dataset, in (0, 1).
 
 - `score`: how prominent the aesthetic is across reference, museum, editorial and marketplace evidence.
 - `design_demand`: how much demand the aesthetic has in home and design media and marketplaces. It applies to entries in the architecture, interior, furniture, lighting and decorative-arts domains, and is `null` for other entries.
@@ -201,20 +262,23 @@ The Bauhaus room above is a primary result in the Rooms lens and a secondary res
 
 | Path | Contents |
 |---|---|
-| `design-styles.json` | The dataset: `schema_version`, `source_tiers`, `domains`, `alias_sources`, `tags` and `styles`. |
-| `schema/design-styles.schema.json` | JSON Schema (draft 2020-12) for the dataset structure. |
-| `validate_styles.py` | Validator: the JSON Schema plus rules across entries. |
+| `aestheticum.json` | The dataset: `schema_version`, `vocab` (`facets`, `relations`, `source_tiers`, `domains`, `alias_sources`, `tags`) and one section per facet. |
+| `schema/aestheticum.schema.json` | JSON Schema (draft 2020-12) for the dataset structure. |
+| `validate.py` | Validator: the JSON Schema plus rules across entries and facets. |
 | `tests/` | Validator tests. |
+| `ROADMAP.md` | Planned directions and the conditions that start them. |
 
 ## Validation
 
 ```sh
 uv sync
-uv run python validate_styles.py
+uv run python validate.py [path]
 uv run pytest
 ```
 
-The validator checks the dataset against the JSON Schema: required fields, slugs, lengths, tag and source counts, source tiers, value ranges and `https` URLs. It then checks rules across entries: unique ids and names, unique aliases, tag and domain vocabularies, media per domain, alias and identifier systems, and parent references and cycles. It exits with status 1 on any error. CI runs the validator tests on every push to `master`.
+`validate.py` reads `aestheticum.json`, or the file at `path`. It prints each error and warning on its own line, then a summary: the entries per facet and the error and warning counts. The warnings are checked when the document passes the schema.
+
+The validator checks the dataset against the JSON Schema: required fields, slugs, lengths, tag and source counts, source tiers, value ranges, `https` URLs, the facet sections and which facets hold entries. It then checks rules across entries and facets: ids unique across facets, names unique within a facet, unique variant names and aliases, tag and domain vocabularies, media per domain, alias and identifier systems, style parent references and cycles, and relations (each predicate belongs to the entry's facet; each target exists in the predicate's target facet, once). It reports a source list whose only source is one tier 2 source as a warning. It exits with status 1 on any error. CI runs the validator and its tests on every push to `master` and on pull requests.
 
 ## License
 

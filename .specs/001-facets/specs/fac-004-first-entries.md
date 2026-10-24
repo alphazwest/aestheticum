@@ -9,7 +9,7 @@ See `../overview.md`. **Depends on**: fac-002, fac-003. **Stream**: B
 ## Relevant Files
 **Modify**: `../aestheticum-worker/data/facets-seed.json` - the candidates below.
 **Modify**: `../aestheticum-worker/data/facets-overrides.json` - review decisions.
-**Modify**: `aestheticum.json` - the applied entries; `vocab.facets` sets `filled: true` for techniques and effects.
+**Modify**: `aestheticum.json` - the applied entries.
 
 ## What to Implement
 ### 1. Seed

@@ -9,12 +9,12 @@ See `overview.md` for scope and the yakisugi example.
 | Key | Contents |
 |---|---|
 | `schema_version` | 3 |
-| `vocab.facets` | Each facet: `name`, `description`, `aat` (the AAT facet or hierarchy id), `filled` (bool). |
-| `vocab.relations` | Each predicate: `from` (facet), `to` (facet), `inverse` (label of the reverse direction), `description`. |
+| `vocab.facets` | Each facet: `name`, `description`, `aat` (the AAT facet or hierarchy id). The keys are the facet section keys. |
+| `vocab.relations` | Owning facet → predicate → `to` (facet), `inverse` (label of the reverse direction), `description`. |
 | `vocab.domains`, `vocab.tags`, `vocab.source_tiers`, `vocab.alias_sources` | Moved unchanged from the top level of `design-styles.json`. |
-| `styles` | The style entries, unchanged except an optional `relations` object. |
+| `styles` | The style entries, unchanged. |
 | `techniques`, `effects` | Filled facet sections. |
-| `materials`, `design_elements`, `objects`, `agents` | Defined in `vocab.facets` with `filled: false`; their sections are empty arrays. |
+| `materials`, `design_elements`, `objects`, `agents` | Defined in `vocab.facets`; their sections are empty arrays, held empty by the schema until a release fills them. |
 
 ### Facets
 
@@ -36,8 +36,9 @@ See `overview.md` for scope and the yakisugi example.
 | `associated_styles` | effects → styles | `effects` | The effect is characteristic of the style. |
 | `produces` | techniques → effects | `produced_by` | The technique gives the effect. |
 
-A predicate may appear in more than one row; `(predicate, from)` is the key. A relation value is a
-list of `{id, sources?}`. Relations live on the owning (`from`) entry only.
+`vocab.relations` is keyed by owning facet, then predicate, so a predicate name may repeat across
+facets. A relation value is a list of `{id, sources?}`. Relations live on the owning entry only;
+styles own no relations in this release.
 
 ## 2. Schema
 
@@ -45,11 +46,15 @@ One JSON Schema (draft 2020-12), `schema/aestheticum.schema.json`.
 
 - `$defs.entry_base`: `id`, `name`, `description` (≤256), `tags` (1–5), `sources` (1–4), `ids`,
   `aliases`, `variants`, `domains` — the fields every facet shares.
+- `$defs.surface_entry_base`: `entry_base` plus `markers` and `relations`, shared by techniques and
+  effects.
 - `$defs.style`: `entry_base` plus `parent` and `popularity` (required, as today).
-- `$defs.technique`, `$defs.effect`: `entry_base` plus `markers` (≤200, required: the look across
-  domains) and `relations`. `domains` is optional for these facets. No `popularity` yet.
+- `$defs.technique`, `$defs.effect`: `surface_entry_base`, closed (`unevaluatedProperties: false`).
+  `markers` (≤200) is required: the look across domains. `domains` is optional. No `popularity` yet.
 - `$defs.relation_target`: `{id, sources?}`.
-- Each facet section is an array of its definition; empty facets are `maxItems: 0` until filled.
+- Each facet section is an array of its definition; an unfilled facet is `$defs.empty_facet`
+  (`maxItems: 0`). The schema is the only record of which facets hold entries.
+- `vocab.facets` keys are the seven facet ids, all required; `vocab.relations` keys are facet ids.
 
 ## 3. Validator
 
@@ -67,8 +72,11 @@ One JSON Schema (draft 2020-12), `schema/aestheticum.schema.json`.
 
 ## 4. Migration
 
-A one-off script in the worker (`tools/facets/migrate.py`) writes `aestheticum.json` from
-`design-styles.json`: vocabularies under `vocab`, styles as they are, empty facet sections. The
+A one-off script in the worker (`tools/facets/migrate.py <v2> <v3>`) writes `aestheticum.json` from
+`design-styles.json`: vocabularies under `vocab`, styles as they are, empty facet sections. It
+refuses an existing output file, a style with keys outside the v2 style fields, and a missing
+vocabulary. The worker reads and writes the dataset only through `dataset.py` (`load` checks
+`schema_version`; `save` writes the dataset's JSON formatting and replaces the file atomically). The
 dataset commit removes `design-styles.json` and its schema and validator. The README describes the
 faceted model. Style content is byte-identical after the move (a test compares each style).
 
@@ -104,6 +112,15 @@ Pattern of `tools/aliases/`: collect (network) → draft (pure) → review repor
 - The materials manifest records the aestheticum version, as decor and environments do.
 - `charred` becomes `{label: "Shou Sugi Ban", technique: yakisugi}`; asset ids keep the
   `charred` key, so the three assets are relinked, not replaced.
+
+## Rollout
+
+- The dataset PR (fac-001 and fac-002) and the rendernode-assets PR (fac-005) merge together:
+  rendernode-assets reads the dataset checkout at `AESTHETICUM_DIR`, and the v2 file leaves in the
+  dataset PR.
+- The worker PR (fac-001 worker part, fac-003) merges after the dataset PR.
+- fac-004 content lands in a later dataset PR; fac-005's rebuild of the material manifests runs after
+  it.
 
 ## Specs and streams
 

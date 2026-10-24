@@ -1,251 +1,311 @@
 {
-  "schema_version": 2,
-  "source_tiers": {
-    "1": "Authoritative design source: museum, encyclopedia, government preservation office, university.",
-    "2": "Commercial or editorial source: design publication, retailer, auction house.",
-    "3": "Open, contributor-edited source."
-  },
-  "domains": {
-    "architecture": {
-      "name": "Architecture",
-      "description": "Buildings, landscapes and urban spaces as built form: exteriors, massing, roofs and structure.",
-      "aat": "300054156",
-      "media": [
-        "buildings",
-        "landscape",
-        "urban"
-      ]
+  "schema_version": 3,
+  "vocab": {
+    "facets": {
+      "styles": {
+        "name": "Styles and Periods",
+        "description": "Styles, periods, movements and cultures with a distinct visual character.",
+        "aat": "300264088"
+      },
+      "techniques": {
+        "name": "Processes and Techniques",
+        "description": "Processes applied to a material or an object that set its look: charring, plastering, gilding, dyeing.",
+        "aat": "300053001"
+      },
+      "effects": {
+        "name": "Conditions and Effects",
+        "description": "Physical conditions of a surface, made on purpose or by time: charred, patina, weathered, crackle.",
+        "aat": "300186269"
+      },
+      "materials": {
+        "name": "Materials",
+        "description": "Substances and the species of natural materials: wood, sugi, lime plaster, bronze.",
+        "aat": "300264091"
+      },
+      "design_elements": {
+        "name": "Design Elements",
+        "description": "Motifs and ornament added to an object or a building: acanthus, putti, meander, rocaille.",
+        "aat": "300123558"
+      },
+      "objects": {
+        "name": "Objects",
+        "description": "Architectural, furniture and object types and their parts: cladding, cassone, boiserie.",
+        "aat": "300264092"
+      },
+      "agents": {
+        "name": "Agents",
+        "description": "Makers, workshops and schools.",
+        "aat": "300264089"
+      }
     },
-    "interior": {
-      "name": "Interior",
-      "description": "Interior spaces as composed wholes: layout, wall and floor finishes, furnishing and decoration.",
-      "aat": "300054184",
-      "media": []
+    "relations": {
+      "techniques": {
+        "associated_styles": {
+          "to": "styles",
+          "inverse": "techniques",
+          "description": "The technique is characteristic of the style."
+        },
+        "produces": {
+          "to": "effects",
+          "inverse": "produced_by",
+          "description": "The technique gives the effect."
+        }
+      },
+      "effects": {
+        "associated_styles": {
+          "to": "styles",
+          "inverse": "effects",
+          "description": "The effect is characteristic of the style."
+        }
+      }
     },
-    "furniture": {
-      "name": "Furniture",
-      "description": "Movable furnishings for sitting, lying, storage and work, seen as individual designed objects.",
-      "aat": "300435227",
-      "media": [
-        "seating",
-        "tables",
-        "storage",
-        "beds"
-      ]
+    "source_tiers": {
+      "1": "Authoritative design source: museum, encyclopedia, government preservation office, university.",
+      "2": "Commercial or editorial source: design publication, retailer, auction house.",
+      "3": "Open, contributor-edited source."
     },
-    "lighting": {
-      "name": "Lighting",
-      "description": "Light fixtures and the lighting of spaces, where light is the focal point.",
-      "aat": null,
-      "media": [
-        "indoor",
-        "exterior",
-        "landscape",
-        "public"
-      ]
+    "domains": {
+      "architecture": {
+        "name": "Architecture",
+        "description": "Buildings, landscapes and urban spaces as built form: exteriors, massing, roofs and structure.",
+        "aat": "300054156",
+        "media": [
+          "buildings",
+          "landscape",
+          "urban"
+        ]
+      },
+      "interior": {
+        "name": "Interior",
+        "description": "Interior spaces as composed wholes: layout, wall and floor finishes, furnishing and decoration.",
+        "aat": "300054184",
+        "media": []
+      },
+      "furniture": {
+        "name": "Furniture",
+        "description": "Movable furnishings for sitting, lying, storage and work, seen as individual designed objects.",
+        "aat": "300435227",
+        "media": [
+          "seating",
+          "tables",
+          "storage",
+          "beds"
+        ]
+      },
+      "lighting": {
+        "name": "Lighting",
+        "description": "Light fixtures and the lighting of spaces, where light is the focal point.",
+        "aat": null,
+        "media": [
+          "indoor",
+          "exterior",
+          "landscape",
+          "public"
+        ]
+      },
+      "decorative-arts": {
+        "name": "Decorative Arts",
+        "description": "Functional and ornamental objects of craft materials.",
+        "aat": "300054168",
+        "media": [
+          "ceramics",
+          "glass",
+          "metalwork",
+          "textiles",
+          "wallcoverings",
+          "arms-and-armor",
+          "musical-instruments"
+        ]
+      },
+      "product": {
+        "name": "Product",
+        "description": "Mass-produced manufactured objects.",
+        "aat": "300054183",
+        "media": [
+          "appliances",
+          "electronics",
+          "tools",
+          "toys",
+          "housewares"
+        ]
+      },
+      "transportation": {
+        "name": "Transportation",
+        "description": "Vehicles as designed form.",
+        "aat": "300042929",
+        "media": [
+          "automotive",
+          "motorcycles",
+          "aviation",
+          "rail",
+          "marine"
+        ]
+      },
+      "fashion": {
+        "name": "Fashion",
+        "description": "Clothing and personal adornment as worn.",
+        "aat": "300138708",
+        "media": [
+          "apparel",
+          "footwear",
+          "accessories",
+          "jewelry"
+        ]
+      },
+      "visual-design": {
+        "name": "Visual Design",
+        "description": "Visual communication in print and on screen.",
+        "aat": "300457792",
+        "media": [
+          "graphic",
+          "typography",
+          "illustration",
+          "digital",
+          "games"
+        ]
+      },
+      "fine-art": {
+        "name": "Fine Art",
+        "description": "Autonomous artworks.",
+        "aat": "300054195",
+        "media": [
+          "painting",
+          "drawing",
+          "printmaking",
+          "sculpture",
+          "photography",
+          "installation"
+        ]
+      },
+      "film": {
+        "name": "Film",
+        "description": "The cinematic image and the designed worlds of screen and stage.",
+        "aat": "300054141",
+        "media": [
+          "cinematography",
+          "animation",
+          "production-design"
+        ]
+      }
     },
-    "decorative-arts": {
-      "name": "Decorative Arts",
-      "description": "Functional and ornamental objects of craft materials.",
-      "aat": "300054168",
-      "media": [
-        "ceramics",
+    "alias_sources": {
+      "aat": {
+        "name": "Getty Art & Architecture Thesaurus",
+        "url": "https://vocab.getty.edu/page/aat/{ref}",
+        "space": "_"
+      },
+      "wikidata": {
+        "name": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/{ref}",
+        "space": "_"
+      },
+      "enwiki": {
+        "name": "English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/{ref}",
+        "space": "_"
+      },
+      "houzz": {
+        "name": "Houzz",
+        "url": "https://www.houzz.com/photos/query/{ref}",
+        "space": "-"
+      },
+      "wayfair": {
+        "name": "Wayfair",
+        "url": "https://www.wayfair.com/keyword.php?keyword={ref}",
+        "space": "+"
+      }
+    },
+    "tags": {
+      "era": [
+        "historical",
+        "revival",
+        "modernist",
+        "mid-century",
+        "contemporary"
+      ],
+      "character": [
+        "traditional",
+        "modern",
+        "rustic",
+        "minimal",
+        "ornate",
+        "formal",
+        "casual",
+        "glamorous",
+        "romantic",
+        "playful",
+        "eclectic",
+        "industrial",
+        "organic",
+        "futuristic",
+        "handcrafted",
+        "vernacular",
+        "serene",
+        "bold",
+        "cozy",
+        "subcultural"
+      ],
+      "form": [
+        "geometric",
+        "curvilinear",
+        "symmetrical",
+        "abstract"
+      ],
+      "palette": [
+        "light",
+        "dark",
+        "neutral",
+        "pastel",
+        "colorful",
+        "monochrome",
+        "earthy"
+      ],
+      "material": [
+        "natural-materials",
+        "painted-finish",
+        "gilded",
+        "metal",
+        "concrete",
         "glass",
-        "metalwork",
-        "textiles",
-        "wallcoverings",
-        "arms-and-armor",
-        "musical-instruments"
-      ]
-    },
-    "product": {
-      "name": "Product",
-      "description": "Mass-produced manufactured objects.",
-      "aat": "300054183",
-      "media": [
-        "appliances",
-        "electronics",
-        "tools",
-        "toys",
-        "housewares"
-      ]
-    },
-    "transportation": {
-      "name": "Transportation",
-      "description": "Vehicles as designed form.",
-      "aat": "300042929",
-      "media": [
-        "automotive",
-        "motorcycles",
-        "aviation",
-        "rail",
-        "marine"
-      ]
-    },
-    "fashion": {
-      "name": "Fashion",
-      "description": "Clothing and personal adornment as worn.",
-      "aat": "300138708",
-      "media": [
-        "apparel",
-        "footwear",
-        "accessories",
-        "jewelry"
-      ]
-    },
-    "visual-design": {
-      "name": "Visual Design",
-      "description": "Visual communication in print and on screen.",
-      "aat": "300457792",
-      "media": [
-        "graphic",
-        "typography",
-        "illustration",
-        "digital",
-        "games"
-      ]
-    },
-    "fine-art": {
-      "name": "Fine Art",
-      "description": "Autonomous artworks.",
-      "aat": "300054195",
-      "media": [
-        "painting",
-        "drawing",
-        "printmaking",
-        "sculpture",
-        "photography",
-        "installation"
-      ]
-    },
-    "film": {
-      "name": "Film",
-      "description": "The cinematic image and the designed worlds of screen and stage.",
-      "aat": "300054141",
-      "media": [
-        "cinematography",
-        "animation",
-        "production-design"
+        "exposed-structure"
+      ],
+      "region": [
+        "american",
+        "british",
+        "french",
+        "italian",
+        "spanish",
+        "dutch",
+        "scandinavian",
+        "central-european",
+        "japanese",
+        "chinese",
+        "moorish",
+        "mediterranean",
+        "south-asian",
+        "middle-eastern",
+        "african",
+        "korean",
+        "latin-american",
+        "southeast-asian",
+        "russian",
+        "pre-columbian",
+        "celtic",
+        "oceanic",
+        "native-north-american",
+        "himalayan",
+        "central-asian",
+        "caribbean"
+      ],
+      "setting": [
+        "coastal",
+        "tropical",
+        "mountain",
+        "rural",
+        "urban",
+        "desert"
       ]
     }
-  },
-  "alias_sources": {
-    "aat": {
-      "name": "Getty Art & Architecture Thesaurus",
-      "url": "https://vocab.getty.edu/page/aat/{ref}",
-      "space": "_"
-    },
-    "wikidata": {
-      "name": "Wikidata",
-      "url": "https://www.wikidata.org/wiki/{ref}",
-      "space": "_"
-    },
-    "enwiki": {
-      "name": "English Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/{ref}",
-      "space": "_"
-    },
-    "houzz": {
-      "name": "Houzz",
-      "url": "https://www.houzz.com/photos/query/{ref}",
-      "space": "-"
-    },
-    "wayfair": {
-      "name": "Wayfair",
-      "url": "https://www.wayfair.com/keyword.php?keyword={ref}",
-      "space": "+"
-    }
-  },
-  "tags": {
-    "era": [
-      "historical",
-      "revival",
-      "modernist",
-      "mid-century",
-      "contemporary"
-    ],
-    "character": [
-      "traditional",
-      "modern",
-      "rustic",
-      "minimal",
-      "ornate",
-      "formal",
-      "casual",
-      "glamorous",
-      "romantic",
-      "playful",
-      "eclectic",
-      "industrial",
-      "organic",
-      "futuristic",
-      "handcrafted",
-      "vernacular",
-      "serene",
-      "bold",
-      "cozy",
-      "subcultural"
-    ],
-    "form": [
-      "geometric",
-      "curvilinear",
-      "symmetrical",
-      "abstract"
-    ],
-    "palette": [
-      "light",
-      "dark",
-      "neutral",
-      "pastel",
-      "colorful",
-      "monochrome",
-      "earthy"
-    ],
-    "material": [
-      "natural-materials",
-      "painted-finish",
-      "gilded",
-      "metal",
-      "concrete",
-      "glass",
-      "exposed-structure"
-    ],
-    "region": [
-      "american",
-      "british",
-      "french",
-      "italian",
-      "spanish",
-      "dutch",
-      "scandinavian",
-      "central-european",
-      "japanese",
-      "chinese",
-      "moorish",
-      "mediterranean",
-      "south-asian",
-      "middle-eastern",
-      "african",
-      "korean",
-      "latin-american",
-      "southeast-asian",
-      "russian",
-      "pre-columbian",
-      "celtic",
-      "oceanic",
-      "native-north-american",
-      "himalayan",
-      "central-asian",
-      "caribbean"
-    ],
-    "setting": [
-      "coastal",
-      "tropical",
-      "mountain",
-      "rural",
-      "urban",
-      "desert"
-    ]
   },
   "styles": [
     {
@@ -56516,5 +56576,11 @@
         "design_demand": 0.815
       }
     }
-  ]
+  ],
+  "techniques": [],
+  "effects": [],
+  "materials": [],
+  "design_elements": [],
+  "objects": [],
+  "agents": []
 }

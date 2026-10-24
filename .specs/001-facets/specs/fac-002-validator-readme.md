@@ -38,7 +38,7 @@ See `../overview.md` and `../plan.md` §3. **Depends on**: fac-001. **Stream**: 
 - A relation key that is a predicate of another facet - error naming the predicate's `from` facet.
 - A relation target in the wrong facet (a technique `produces` a style) - error.
 - The same id in two facets - error naming both facets.
-- An empty facet section with entries while `filled` is false - schema error.
+- An entry in a facet section held empty by the schema - schema error.
 - A relation target listed twice - error.
 
 ## Testing
