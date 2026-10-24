@@ -84,19 +84,19 @@ faceted model. Style content is byte-identical after the move (a test compares e
 
 Pattern of `tools/aliases/`: collect (network) → draft (pure) → review report → apply.
 
-1. **Seed** `data/facets-seed.json`: per facet, candidate names with a short note and the target
-   styles. About 30–40 techniques and effects for this release.
-2. **Collect** writes `data/raw/facets-YYYY-MM.json`: for each candidate, AAT and Wikidata
-   lookups (ids, labels, aliases), and web search results from authoritative and editorial sites,
-   each page fetched and kept as text with its URL and status.
-3. **Draft** (pure): builds an entry per candidate from the snapshot (description, markers,
-   domains, variants, relation targets, sources with tiers by publisher class). A model call writes
-   the prose fields from the fetched page text only; every claim keeps its source URL.
-4. **Report** `data/facets-report-YYYY-MM.md`: each draft entry, its sources and tiers, failed
-   URLs, entries that miss the source rule, and relation targets that are not style ids.
+1. **Seed** `data/facets-seed.json`: per facet, candidates with a short note, the target styles
+   and 2–4 tiered source URLs found by research. About 30–40 techniques and effects for this release.
+2. **Collect** writes `data/raw/facets-YYYY-MM.json`: each seed source page fetched and kept as text
+   with its URL and status, and the AAT and Wikidata ids.
+3. **Prose** `data/facets-prose.json`: written in a Claude session from the fetched page texts only;
+   every text cites the URLs it rests on.
+4. **Draft** (pure): an entry per candidate from the seed, the snapshot and the prose (description,
+   markers, domains, variants, relation targets, sources), and the review report
+   `data/facets-report-YYYY-MM.md`: each draft, its sources and tiers, failed URLs, dropped texts and
+   relation targets that are not styles or effects.
 5. **Apply** writes the accepted drafts into the dataset and runs the validator.
-   `data/facets-overrides.json` holds manual decisions (rejected candidates, corrected text,
-   added sources), each with a reason.
+   `data/facets-overrides.json` holds manual decisions (rejected candidates, replaced fields), each
+   with a reason.
 
 ## 6. rendernode-assets
 
@@ -115,12 +115,10 @@ Pattern of `tools/aliases/`: collect (network) → draft (pure) → review repor
 
 ## Rollout
 
-- The dataset PR (fac-001 and fac-002) and the rendernode-assets PR (fac-005) merge together:
-  rendernode-assets reads the dataset checkout at `AESTHETICUM_DIR`, and the v2 file leaves in the
-  dataset PR.
-- The worker PR (fac-001 worker part, fac-003) merges after the dataset PR.
-- fac-004 content lands in a later dataset PR; fac-005's rebuild of the material manifests runs after
-  it.
+- rendernode-assets reads the dataset checkout at `AESTHETICUM_DIR`, and its material spec names the
+  yakisugi technique. Three PRs therefore merge together: the dataset PR (fac-001, fac-002), the
+  dataset content PR (fac-004) and the rendernode-assets PR (fac-005, with the rebuilt manifests).
+- The worker PRs (fac-001 worker part, fac-003) merge after the dataset PR.
 
 ## Specs and streams
 

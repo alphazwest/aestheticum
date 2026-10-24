@@ -12,24 +12,23 @@ See `../overview.md` and `../plan.md` §5. **Depends on**: fac-001. **Stream**: 
 **New**: `../aestheticum-worker/tools/facets/report.py` - writes the review report.
 **New**: `../aestheticum-worker/tools/facets/apply.py` - writes accepted drafts into the dataset.
 **New**: `../aestheticum-worker/data/facets-seed.json` - candidates per facet.
+**New**: `../aestheticum-worker/data/facets-prose.json` - prose per candidate with cited URLs.
 **New**: `../aestheticum-worker/data/facets-overrides.json` - manual decisions with reasons.
 **New**: `../aestheticum-worker/tests/test_facets_*.py`.
 **Reference**: `../aestheticum-worker/tools/aliases/` - pipeline pattern, snapshot naming, overrides.
 
 ## What to Implement
 ### 1. Seed
-- Per facet, a list of `{name, note, styles}`: `styles` are the style ids the candidate is expected to relate to.
+- Per facet, a list of `{id, name, note, styles, produces?, sources}`: `styles` are the style ids the candidate is expected to relate to; `sources` are 2–4 `{url, publisher, tier}` found by research (the tier set by the publisher class of the README's tier table).
 
 ### 2. Collect
-- For each candidate: Getty AAT (label search, then record), Wikidata (item by AAT id, else exact label), and web search restricted to a publisher allow-list per tier (museums, encyclopedias, universities and standards bodies for tier 1; design and trade publications and manufacturers for tier 2).
-- Fetch each result page; keep URL, final URL, status, title and text.
+- For each candidate: fetch each seed source page and keep URL, final URL, status, title and text; Getty AAT (a seed source on vocab.getty.edu whose English labels include the name) and Wikidata (item by AAT id, else a unique exact label).
 - Write `data/raw/facets-YYYY-MM.json`; HTTP responses are cached under `.cache/` (not committed).
 
-### 3. Draft
-- Tier per source from the publisher allow-list.
-- Ids and aliases by the README identifier and alias rules.
-- Prose fields (`description`, `markers`, domain markers, variant markers) are written by a model call that receives only the fetched page texts and must cite the URL of each claim; a claim without a cited URL is dropped.
-- Relation targets: the seed's `styles` that the sources support; others go to the report.
+### 3. Prose and draft
+- Prose fields (`description`, `markers`, domain markers, variant descriptions and markers), tags and associated styles are written in a Claude session from the fetched page texts only, into `data/facets-prose.json`; every text cites the URLs it rests on.
+- Draft (pure) merges the seed, the snapshot and the prose: sources from the fetched seed sources, ids from the snapshot, relation targets from the cited associated styles that are styles and from the seed's `produces` that are effects. A text that cites nothing or an unfetched page is dropped and reported; an entry without a description or markers is blocked.
+- Aliases come from the alias pipeline, not from the draft.
 - Output: draft entries in the v3 facet shape.
 
 ### 4. Report and apply
@@ -40,11 +39,11 @@ See `../overview.md` and `../plan.md` §5. **Depends on**: fac-001. **Stream**: 
 - A candidate with no AAT or Wikidata record - drafted without `ids`; flagged in the report.
 - A page that redirects to a different topic - source dropped; reported.
 - A name that matches an existing style or alias - drafted as a conflict; never applied without an override.
-- A model claim citing a URL that was not fetched - dropped.
+- A prose text citing a URL that was not fetched, or citing nothing - dropped; reported.
 - Apply run twice - the second run changes nothing.
 
 ## Testing
-- `draft.py` is pure: tests run it on a small committed snapshot fixture and compare with expected drafts (model calls stubbed).
+- `draft.py` is pure: tests run it on a small in-memory seed, snapshot and prose and compare with the expected drafts and issues.
 - `apply.py` tests run on a temporary copy of a minimal v3 file.
 - No network in tests.
 
